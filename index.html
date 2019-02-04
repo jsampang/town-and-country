@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,157 +19,159 @@
         <script src="assets/js/html5shiv.min.js"></script>
         <script src="assets/js/respond.min.js"></script>
     <![endif]-->
-  </head>
-  <body>
-    
-    
-    
-    <div class="ms-site-container">
-      <!-- Modal -->
-      <div class="modal modal-primary" id="ms-account-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <div class="modal-dialog animated zoomIn animated-3x" role="document">
-          <div class="modal-content">
-            <div class="modal-header d-block shadow-2dp no-pb">
-              <button type="button" class="close d-inline pull-right mt-2" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="zmdi zmdi-close"></i></span></button>
-              <div class="modal-title text-center">
-                <h3 class="no-m ms-site-title">Login/Signup</span></h3>
-              </div>
-              <div class="modal-header-tabs">
-                <ul class="nav nav-tabs nav-tabs-full nav-tabs-3 nav-tabs-primary" role="tablist">
-                  <li class="nav-item" role="presentation"><a href="index.html#ms-login-tab" aria-controls="ms-login-tab" role="tab" data-toggle="tab" class="nav-link active withoutripple"><i class="zmdi zmdi-account"></i> Login</a></li>
-                  <li class="nav-item" role="presentation"><a href="index.html#ms-register-tab" aria-controls="ms-register-tab" role="tab" data-toggle="tab" class="nav-link withoutripple"><i class="zmdi zmdi-account-add"></i> Signup</a></li>
-                  <li class="nav-item" role="presentation"><a href="index.html#ms-recovery-tab" aria-controls="ms-recovery-tab" role="tab" data-toggle="tab" class="nav-link withoutripple"><i class="zmdi zmdi-key"></i> Recovery Pass</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="modal-body">
-              <div class="tab-content">
-                <div role="tabpanel" class="tab-pane fade active show" id="ms-login-tab">
-                  <form autocomplete="off">
-                    <fieldset>
-                      <div class="form-group label-floating">
-                        <div class="input-group">
-                          <span class="input-group-addon"><i class="zmdi zmdi-account"></i></span>
-                          <label class="control-label" for="ms-form-user">Username</label>
-                          <input type="text" id="ms-form-user" class="form-control">
-                        </div>
-                      </div>
-                      <div class="form-group label-floating">
-                        <div class="input-group">
-                          <span class="input-group-addon"><i class="zmdi zmdi-lock"></i></span>
-                          <label class="control-label" for="ms-form-pass">Password</label>
-                          <input type="password" id="ms-form-pass" class="form-control">
-                        </div>
-                      </div>
-                      <div class="row mt-2">
-                        <div class="col-md-6">
-                          <div class="form-group no-mt">
-                            <div class="checkbox">
-                              <label>
-                                <input type="checkbox"> Remember Me </label>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-md-6">
-                          <button class="btn btn-raised btn-primary pull-right">Login</button>
-                        </div>
-                      </div>
-                    </fieldset>
-                  </form>
-                  <div class="text-center">
-                    <h3>Login with</h3>
-                    <a href="javascript:void(0)" class="wave-effect-light btn btn-raised btn-facebook"><i class="zmdi zmdi-facebook"></i> Facebook</a>
-                    <a href="javascript:void(0)" class="wave-effect-light btn btn-raised btn-twitter"><i class="zmdi zmdi-twitter"></i> Twitter</a>
-                    <a href="javascript:void(0)" class="wave-effect-light btn btn-raised btn-google"><i class="zmdi zmdi-google"></i> Google</a>
-                  </div>
-                </div>
-                <div role="tabpanel" class="tab-pane fade" id="ms-register-tab">
-                  <form>
-                    <fieldset>
-                      <div class="form-group label-floating">
-                        <div class="input-group">
-                          <span class="input-group-addon"><i class="zmdi zmdi-account"></i></span>
-                          <label class="control-label" for="ms-form-user-r">Username</label>
-                          <input type="text" id="ms-form-user-r" class="form-control">
-                        </div>
-                      </div>
-                      <div class="form-group label-floating">
-                        <div class="input-group">
-                          <span class="input-group-addon"><i class="zmdi zmdi-email"></i></span>
-                          <label class="control-label" for="ms-form-email-r">Email</label>
-                          <input type="email" id="ms-form-email-r" class="form-control">
-                        </div>
-                      </div>
-                      <div class="form-group label-floating">
-                        <div class="input-group">
-                          <span class="input-group-addon"><i class="zmdi zmdi-lock"></i></span>
-                          <label class="control-label" for="ms-form-pass-r">Password</label>
-                          <input type="password" id="ms-form-pass-r" class="form-control">
-                        </div>
-                      </div>
-                      <div class="form-group label-floating">
-                        <div class="input-group">
-                          <span class="input-group-addon"><i class="zmdi zmdi-lock"></i></span>
-                          <label class="control-label" for="ms-form-pass-rn">Re-type Password</label>
-                          <input type="password" id="ms-form-pass-rn" class="form-control">
-                        </div>
-                      </div>
-                      <button class="btn btn-raised btn-block btn-primary">Register Now</button>
-                    </fieldset>
-                  </form>
-                </div>
-                <div role="tabpanel" class="tab-pane fade" id="ms-recovery-tab">
-                  <fieldset>
-                    <div class="form-group label-floating">
-                      <div class="input-group">
-                        <span class="input-group-addon"><i class="zmdi zmdi-account"></i></span>
-                        <label class="control-label" for="ms-form-user-re">Username</label>
-                        <input type="text" id="ms-form-user-re" class="form-control">
-                      </div>
-                    </div>
-                    <div class="form-group label-floating">
-                      <div class="input-group">
-                        <span class="input-group-addon"><i class="zmdi zmdi-email"></i></span>
-                        <label class="control-label" for="ms-form-email-re">Email</label>
-                        <input type="email" id="ms-form-email-re" class="form-control">
-                      </div>
-                    </div>
-                    <button class="btn btn-raised btn-block btn-primary">Send Password</button>
-                  </fieldset>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <header class="ms-header ms-header-primary">
-        <!--ms-header-primary-->
-        <div class="container container-full">
-          <div class="ms-title">
-            <a href="index.html">
-               <img src="assets/img/logo.png" alt="Town and Country"> 
+</head>
 
-            </a>
-          </div>
-<!--            <div style="float:right"><i class="zmdi zmdi-pin"></i>  2021 E Camelback Rd. Phoenix, AZ 85016</div>-->
-          <div class="header-right">
-              
-<!--
+<body>
+
+
+
+    <div class="ms-site-container">
+        <!-- Modal -->
+        <div class="modal modal-primary" id="ms-account-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog animated zoomIn animated-3x" role="document">
+                <div class="modal-content">
+                    <div class="modal-header d-block shadow-2dp no-pb">
+                        <button type="button" class="close d-inline pull-right mt-2" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="zmdi zmdi-close"></i></span></button>
+                        <div class="modal-title text-center">
+                            <h3 class="no-m ms-site-title">Login/Signup</h3>
+                        </div>
+                        <div class="modal-header-tabs">
+                            <ul class="nav nav-tabs nav-tabs-full nav-tabs-3 nav-tabs-primary" role="tablist">
+                                <li class="nav-item" role="presentation"><a href="index.html#ms-login-tab" aria-controls="ms-login-tab" role="tab" data-toggle="tab" class="nav-link active withoutripple"><i class="zmdi zmdi-account"></i> Login</a></li>
+                                <li class="nav-item" role="presentation"><a href="index.html#ms-register-tab" aria-controls="ms-register-tab" role="tab" data-toggle="tab" class="nav-link withoutripple"><i class="zmdi zmdi-account-add"></i> Signup</a></li>
+                                <li class="nav-item" role="presentation"><a href="index.html#ms-recovery-tab" aria-controls="ms-recovery-tab" role="tab" data-toggle="tab" class="nav-link withoutripple"><i class="zmdi zmdi-key"></i> Recovery Pass</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="modal-body">
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane fade active show" id="ms-login-tab">
+                                <form autocomplete="off">
+                                    <fieldset>
+                                        <div class="form-group label-floating">
+                                            <div class="input-group">
+                                                <span class="input-group-addon"><i class="zmdi zmdi-account"></i></span>
+                                                <label class="control-label" for="ms-form-user">Username</label>
+                                                <input type="text" id="ms-form-user" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="form-group label-floating">
+                                            <div class="input-group">
+                                                <span class="input-group-addon"><i class="zmdi zmdi-lock"></i></span>
+                                                <label class="control-label" for="ms-form-pass">Password</label>
+                                                <input type="password" id="ms-form-pass" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="row mt-2">
+                                            <div class="col-md-6">
+                                                <div class="form-group no-mt">
+                                                    <div class="checkbox">
+                                                        <label>
+                                                            <input type="checkbox"> Remember Me </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <button class="btn btn-raised btn-primary pull-right">Login</button>
+                                            </div>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                                <div class="text-center">
+                                    <h3>Login with</h3>
+                                    <a href="javascript:void(0)" class="wave-effect-light btn btn-raised btn-facebook"><i class="zmdi zmdi-facebook"></i> Facebook</a>
+                                    <a href="javascript:void(0)" class="wave-effect-light btn btn-raised btn-twitter"><i class="zmdi zmdi-twitter"></i> Twitter</a>
+                                    <a href="javascript:void(0)" class="wave-effect-light btn btn-raised btn-google"><i class="zmdi zmdi-google"></i> Google</a>
+                                </div>
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade" id="ms-register-tab">
+                                <form>
+                                    <fieldset>
+                                        <div class="form-group label-floating">
+                                            <div class="input-group">
+                                                <span class="input-group-addon"><i class="zmdi zmdi-account"></i></span>
+                                                <label class="control-label" for="ms-form-user-r">Username</label>
+                                                <input type="text" id="ms-form-user-r" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="form-group label-floating">
+                                            <div class="input-group">
+                                                <span class="input-group-addon"><i class="zmdi zmdi-email"></i></span>
+                                                <label class="control-label" for="ms-form-email-r">Email</label>
+                                                <input type="email" id="ms-form-email-r" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="form-group label-floating">
+                                            <div class="input-group">
+                                                <span class="input-group-addon"><i class="zmdi zmdi-lock"></i></span>
+                                                <label class="control-label" for="ms-form-pass-r">Password</label>
+                                                <input type="password" id="ms-form-pass-r" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="form-group label-floating">
+                                            <div class="input-group">
+                                                <span class="input-group-addon"><i class="zmdi zmdi-lock"></i></span>
+                                                <label class="control-label" for="ms-form-pass-rn">Re-type Password</label>
+                                                <input type="password" id="ms-form-pass-rn" class="form-control">
+                                            </div>
+                                        </div>
+                                        <button class="btn btn-raised btn-block btn-primary">Register Now</button>
+                                    </fieldset>
+                                </form>
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade" id="ms-recovery-tab">
+                                <form>
+                                <fieldset>
+                                    <div class="form-group label-floating">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><i class="zmdi zmdi-account"></i></span>
+                                            <label class="control-label" for="ms-form-user-re">Username</label>
+                                            <input type="text" id="ms-form-user-re" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="form-group label-floating">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><i class="zmdi zmdi-email"></i></span>
+                                            <label class="control-label" for="ms-form-email-re">Email</label>
+                                            <input type="email" id="ms-form-email-re" class="form-control">
+                                        </div>
+                                    </div>
+                                    <button class="btn btn-raised btn-block btn-primary">Send Password</button>
+                                </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <header class="ms-header ms-header-primary">
+            <!--ms-header-primary-->
+            <div class="container container-full">
+                <div class="ms-title">
+                    <a href="index.html">
+                        <img src="assets/img/logo.png" alt="Town and Country">
+
+                    </a>
+                </div>
+                <!--            <div style="float:right"><i class="zmdi zmdi-pin"></i>  2021 E Camelback Rd. Phoenix, AZ 85016</div>-->
+                <div class="header-right">
+
+                    <!--
               <span class="animated fadeInRight animation-delay-9"><i class="zmdi zmdi-pin"></i> 
                   <span>2021 E Camelback Rd.<br> Phoenix, AZ 85016</span></span>
 -->
 
-              
-            
-              
-              
-              <div class="share-menu">        
 
-               <span class="animated fadeInRight animation-delay-3"><i class="zmdi zmdi-pin"></i> 2021 E Camelback Rd. Phoenix, AZ 85016</span>
-            </div>
-              
-<!--
+
+
+
+                    <div class="share-menu">
+
+                        <span class="animated fadeInRight animation-delay-3"><i class="zmdi zmdi-pin"></i> 2021 E Camelback Rd. Phoenix, AZ 85016</span>
+                    </div>
+
+                    <!--
               <div class="share-menu">        
               <ul class="share-menu-list">               
                 <li class="animated fadeInRight animation-delay-3"><a href="javascript:void(0)" class="btn-circle btn-google"><i class="zmdi zmdi-google"></i></a></li>
@@ -178,85 +181,85 @@
               <a href="javascript:void(0)" class="btn-circle btn-circle-primary animated zoomInDown animation-delay-7"><i class="zmdi zmdi-share"></i></a>
             </div>
 -->
-              
-              
-            <a href="javascript:void(0)" class="btn-circle btn-circle-primary no-focus animated zoomInDown animation-delay-8" data-toggle="modal" data-target="#ms-account-modal"><i class="zmdi zmdi-account"></i></a>
-            
-              <form class="search-form animated zoomInDown animation-delay-9">
-              <input id="search-box" type="text" class="search-input" placeholder="Search..." name="q" />
-              <label for="search-box"><i class="zmdi zmdi-search"></i></label>
-            </form>
-<!--            <a href="javascript:void(0)" class="btn-ms-menu btn-circle btn-circle-primary ms-toggle-left animated zoomInDown animation-delay-10"><i class="zmdi zmdi-menu"></i></a>-->
-          </div>
-        </div>
-      </header>
-      <nav class="navbar navbar-expand-md  navbar-static ms-navbar ms-navbar-primary">
-        <div class="container container-full">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="index.html">
-              <!-- <img src="assets/img/demo/logo-navbar.png" alt=""> -->
-                <img src="assets/img/logo.png" alt="Town and Country" width="160px"> 
-<!--
+
+
+                    <a href="javascript:void(0)" class="btn-circle btn-circle-primary no-focus animated zoomInDown animation-delay-8" data-toggle="modal" data-target="#ms-account-modal"><i class="zmdi zmdi-account"></i></a>
+
+                    <form class="search-form animated zoomInDown animation-delay-9">
+                        <input id="search-box" type="text" class="search-input" placeholder="Search..." name="q" />
+                        <label for="search-box"><i class="zmdi zmdi-search"></i></label>
+                    </form>
+                    <!--            <a href="javascript:void(0)" class="btn-ms-menu btn-circle btn-circle-primary ms-toggle-left animated zoomInDown animation-delay-10"><i class="zmdi zmdi-menu"></i></a>-->
+                </div>
+            </div>
+        </header>
+        <nav class="navbar navbar-expand-md  navbar-static ms-navbar ms-navbar-primary">
+            <div class="container container-full">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html">
+                        <!-- <img src="assets/img/demo/logo-navbar.png" alt=""> -->
+                        <img src="assets/img/logo.png" alt="Town and Country" width="160px">
+                        <!--
               <span class="ms-logo ms-logo-sm">M</span>
               <span class="ms-title">Material <strong>Style</strong></span>
 -->
-            </a>
-          </div>
-          <div class="collapse navbar-collapse" id="ms-navbar">
-            <ul class="navbar-nav">
-              <li class="nav-item dropdown active">
-                <a href="index.html#" class="nav-link animated fadeIn animation-delay-7" role="button" aria-haspopup="true" aria-expanded="false" data-name="home">Home</a>   
-              </li>
-                <li class="nav-item">
-                <a href="index.html#" class="nav-link animated fadeIn animation-delay-7" role="button" aria-haspopup="true" aria-expanded="false" data-name="directory">Directory</a>   
-              </li>
-                <li class="nav-item">
-                <a href="index.html#" class="nav-link animated fadeIn animation-delay-7" role="button" aria-haspopup="true" aria-expanded="false" data-name="special-offer">Special Offer</a>   
-              </li>
-                <li class="nav-item">
-                <a href="index.html#" class="nav-link animated fadeIn animation-delay-7" role="button" aria-haspopup="true" aria-expanded="false" data-name="events">Events</a>   
-              </li>
-                <li class="nav-item">
-                <a href="index.html#" class="nav-link animated fadeIn animation-delay-7" role="button" aria-haspopup="true" aria-expanded="false" data-name="news">News</a>   
-              </li>
-                <li class="nav-item">
-                <a href="index.html#" class="nav-link animated fadeIn animation-delay-7" role="button" aria-haspopup="true" aria-expanded="false" data-name="about">About</a>   
-              </li>
-              
-            </ul>
-          </div>
-          <a href="javascript:void(0)" class="ms-toggle-left btn-navbar-menu"><i class="zmdi zmdi-menu"></i></a>
-        </div> <!-- container -->
-      </nav>
-      <div class="ms-hero ms-hero-material" style="background: url(assets/img/back_mountain.jpg) no-repeat; background-size: cover;  background-position: center;">
-        <span class="ms-hero-bgxx"></span>
-        <div class="container">
-          <div class="row">
-            <div class="col-xl-6 col-lg-7">
-              <div id="carousel-hero" class="carousel slide carousel-fade" data-ride="carousel" data-interval="8000">
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner" role="listbox">
-                  
-                  
+                    </a>
                 </div>
-              </div>
-            </div>
-            <div class="col-xl-6 col-lg-5">
-              <div class="ms-hero-img animated zoomInUp animation-delay-30">
-<!--
+                <div class="collapse navbar-collapse" id="ms-navbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown active">
+                            <a href="index.html#" class="nav-link animated fadeIn animation-delay-7" role="button" aria-haspopup="true" aria-expanded="false" data-name="home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index.html#" class="nav-link animated fadeIn animation-delay-7" role="button" aria-haspopup="true" aria-expanded="false" data-name="directory">Directory</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index.html#" class="nav-link animated fadeIn animation-delay-7" role="button" aria-haspopup="true" aria-expanded="false" data-name="special-offer">Special Offer</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index.html#" class="nav-link animated fadeIn animation-delay-7" role="button" aria-haspopup="true" aria-expanded="false" data-name="events">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index.html#" class="nav-link animated fadeIn animation-delay-7" role="button" aria-haspopup="true" aria-expanded="false" data-name="news">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index.html#" class="nav-link animated fadeIn animation-delay-7" role="button" aria-haspopup="true" aria-expanded="false" data-name="about">About</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <a href="javascript:void(0)" class="ms-toggle-left btn-navbar-menu"><i class="zmdi zmdi-menu"></i></a>
+            </div> <!-- container -->
+        </nav>
+        <div class="ms-hero ms-hero-material" style="background: url(assets/img/back_mountain.jpg) no-repeat; background-size: cover;  background-position: center;">
+            <span class="ms-hero-bgxx"></span>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-7">
+                        <div id="carousel-hero" class="carousel slide carousel-fade" data-ride="carousel" data-interval="8000">
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner" role="listbox">
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-5">
+                        <div class="ms-hero-img animated zoomInUp animation-delay-30">
+                            <!--
                 <img src="assets/img/demo/mock-imac-material2.png" alt="" class="img-fluid">
                 <div id="carousel-hero-img" class="carousel carousel-fade slide" data-ride="carousel" data-interval="3000">
 -->
-                  <!-- Indicators -->
-<!--
+                            <!-- Indicators -->
+                            <!--
                   <ol class="carousel-indicators carousel-indicators-hero-img">
                     <li data-target="#carousel-hero-img" data-slide-to="0" class="active"></li>
                     <li data-target="#carousel-hero-img" data-slide-to="1"></li>
                     <li data-target="#carousel-hero-img" data-slide-to="2"></li>
                   </ol>
 -->
-                  <!-- Wrapper for slides -->
-<!--
+                            <!-- Wrapper for slides -->
+                            <!--
                   <div class="carousel-inner" role="listbox">
                     <div class="ms-hero-img-slider carousel-item active">
                       <img src="assets/img/demo/hero1.png" alt="" class="img-fluid">
@@ -269,211 +272,242 @@
                     </div>
                   </div>
 -->
+                        </div>
+                    </div>
                 </div>
+            </div>
+        </div>
+
+        <aside class="icon-section">
+            <div class="container">
+                <div class="text-center">
+
+                    <div class="row mb-4 mt-4">
+                        <div class="col-md-5ths col-xs-12 col-sm-5ths col-lg-5ths">
+                            <i class="zmdi zmdi-store color-gray zmdi-hc-4x"></i>
+                            <h4 class="color-white text-uppercase">Stores</h4>
+                        </div>
+                        <div class="col-md-5ths col-xs-12 col-sm-5ths col-lg-5ths">
+                            <i class="zmdi zmdi-tag color-gray zmdi-hc-4x"></i>
+                            <h4 class="color-white text-uppercase">Deals</h4>
+                        </div>
+                        <div class="col-md-5ths col-xs-6 col-sm-5ths col-lg-5ths">
+                            <i class="zmdi zmdi-calendar-note color-gray zmdi-hc-4x"></i>
+                            <h4 class="color-white text-uppercase">Events</h4>
+                        </div>
+                        <div class="col-md-5ths col-xs-6 col-sm-5ths col-lg-5ths">
+                            <i class="zmdi zmdi-cocktail color-pgray zmdi-hc-4x"></i>
+                            <h4 class="color-white text-uppercase">Food</h4>
+                        </div>
+                        <div class="col-md-5ths col-xs-6 col-sm-5ths col-lg-5ths">
+                            <i class="zmdi zmdi-comment-text color-gray zmdi-hc-4x"></i>
+                            <h4 class="color-white text-uppercase">News</h4>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+
+
+        <div class="container mt-4 mb-5">
+            <h2 class="text-center color-primary mb-2 wow fadeInDown animation-delay-4">PLAN YOUR VISIT</h2>
+            <p class="lead text-center aco wow fadeInDown animation-delay-5 mw-800 center-block mb-4"> Visit The Shops at Town &amp; Country today!</p>
+
+            <div class="row">
+
+                <div class="col-sm-4 mb-2">
+                    <div class="ms-thumbnail-container">
+                        <figure class="ms-thumbnail">
+                            <img src="assets/img/dine.png" alt="" class="img-fluid">
+                            <figcaption class="ms-thumbnail-caption text-center">
+                                <div class="ms-thumbnail-caption-content">
+                                    <h3 class="ms-thumbnail-caption-title">Dine</h3>
+                                    <p>Lorem ipsum dolor sit amet</p>
+                                    <a href="javascript:void(0)" class="btn btn-white btn-raised color-primary"><i class="zmdi zmdi-eye"></i> Visit Store</a>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="ms-thumbnail-container">
+                        <figure class="ms-thumbnail">
+                            <img src="assets/img/shop.png" alt="" class="img-fluid">
+                            <figcaption class="ms-thumbnail-caption text-center">
+                                <div class="ms-thumbnail-caption-content">
+                                    <h3 class="ms-thumbnail-caption-title">Shop</h3>
+                                    <p>Lorem ipsum dolor sit amet</p>
+                                    <a href="javascript:void(0)" class="btn btn-white btn-raised color-primary"><i class="zmdi zmdi-eye"></i> View more</a>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                </div>
+
+                <div class="col-sm-4 mb-2">
+                    <div class="ms-thumbnail-container">
+                        <figure class="ms-thumbnail">
+                            <img src="assets/img/services.png" alt="" class="img-fluid">
+                            <figcaption class="ms-thumbnail-caption text-center">
+                                <div class="ms-thumbnail-caption-content">
+                                    <h3 class="ms-thumbnail-caption-title">Services</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <a href="javascript:void(0)" class="btn btn-white btn-raised color-primary"><i class="zmdi zmdi-eye"></i> View more</a>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 mb-2">
+                    <div class="ms-thumbnail-container">
+                        <figure class="ms-thumbnail">
+                            <img src="assets/img/stay.png" alt="" class="img-fluid">
+                            <figcaption class="ms-thumbnail-caption text-center">
+                                <div class="ms-thumbnail-caption-content">
+                                    <h3 class="ms-thumbnail-caption-title">Stay</h3>
+                                    <p>Lorem ipsum dolor sit amet</p>
+                                    <a href="javascript:void(0)" class="btn btn-white btn-raised color-primary"><i class="zmdi zmdi-eye"></i> View more</a>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <aside class="logo-section mt-5">
+            <div class="container">
+                <div class="text-center">
+
+                    <div class="row mb-4 mt-4">
+                        <div class="col-lg-2">
+                            <img src="assets/img/logo01.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-lg-2">
+                            <img src="assets/img/logo02.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-lg-2">
+                            <img src="assets/img/logo03.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-lg-2">
+                            <img src="assets/img/logo04.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-lg-2">
+                            <img src="assets/img/logo05.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-lg-2">
+                            <img src="assets/img/logo06.png" alt="" class="img-fluid">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </aside>
+        
+        <div class="wrap wrap-mountain">
+        <div class="container">
+          <h2 class="text-center text-light wow fadeInDown animation-delay-5"><strong>Shop, Dine, Be Entertained</strong>
+            </h2>
+            <h3 class="text-center text-light mb-6 wow fadeInDown animation-delay-9">Don't miss a moment.</h3>
+            
+            <div class="text-center">
+                <a href="javascript:void(0)" class="btn btn-warning btn-raised mr-1 wow flipInX animation-delay-14">
+                  <i class="zmdi zmdi-calendar"></i> See our calendar of events </a>
+              </div>
+            
+<!--
+          <div class="row">
+            <div class="col-lg-6 order-lg-2 mb-4  center-block">
+              <img src="assets/img/demo/mock.png" alt="" class="img-fluid center-block wow zoomIn animation-delay-12 "> </div>
+            <div class="col-lg-6 order-lg-1 pr-6">
+              <p class="wow fadeInLeft animation-delay-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam sint officiis odio tempora natus, sed voluptas facilis ullam suscipit. Ducimus quas, eius ut, dolores mollitia sapiente doloremque aliquid sequi eaque.</p>
+              <p class="wow fadeInLeft animation-delay-7">Adipisicing elit. Sapiente porro voluptatem rerum modi quibusdam accusantium nihil facere cupiditate quam! Ipsa.</p>
+              <p class="wow fadeInLeft animation-delay-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque quasi voluptatem, similique corrupti necessitatibus nihil error, nemo delectus voluptates deserunt ducimus quaerat molestiae labore id repellat exercitationem asperiores neque
+                quibusdam.</p>
+              <div class="text-center">
+                <a href="javascript:void(0)" class="btn btn-warning btn-raised mr-1 wow flipInX animation-delay-14">
+                  <i class="zmdi zmdi-chart-donut"></i> Action here </a>
+                <a href="javascript:void(0)" class="btn btn-info btn-raised wow flipInX animation-delay-16">
+                  <i class="zmdi zmdi-case"></i> Button</a>
               </div>
             </div>
           </div>
-        </div> 
-    
-<aside class="icon-section">
-    <div class="container">
-        <div class="text-center">
-
-            <div class="row mb-4 mt-4">
-                <div class="col-md-5ths col-xs-12 col-sm-5ths col-lg-5ths">
-                    <i class="zmdi zmdi-store color-gray zmdi-hc-4x"></i>
-                    <h4 class="color-white text-uppercase">Stores</h4>
-                </div>
-                <div class="col-md-5ths col-xs-12 col-sm-5ths col-lg-5ths">
-                    <i class="zmdi zmdi-tag color-gray zmdi-hc-4x"></i>
-                    <h4 class="color-white text-uppercase">Deals</h4>
-                </div>
-                <div class="col-md-5ths col-xs-6 col-sm-5ths col-lg-5ths">
-                    <i class="zmdi zmdi-calendar-note color-gray zmdi-hc-4x"></i>
-                    <h4 class="color-white text-uppercase">Events</h4>
-                </div>
-                <div class="col-md-5ths col-xs-6 col-sm-5ths col-lg-5ths">
-                    <i class="zmdi zmdi-cocktail color-pgray zmdi-hc-4x"></i>
-                    <h4 class="color-white text-uppercase">Food</h4>
-                </div>
-                <div class="col-md-5ths col-xs-6 col-sm-5ths col-lg-5ths">
-                    <i class="zmdi zmdi-comment-text color-gray zmdi-hc-4x"></i>
-                    <h4 class="color-white text-uppercase">News</h4>
-                </div>
-
-
-
-            </div>
+-->
         </div>
-    </div>
-</aside>
-    
-    
-    
-    <div class="container mt-4 mb-5">
-        <h2 class="text-center color-primary mb-2 wow fadeInDown animation-delay-4">PLAN YOUR VISIT</h2>
-        <p class="lead text-center aco wow fadeInDown animation-delay-5 mw-800 center-block mb-4"> Visit The Shops at Town &amp; Country today!</p>
-        
-<div class="row">
-    
-    <div class="col-sm-4 mb-2">
-        <div class="ms-thumbnail-container">
-            <figure class="ms-thumbnail">
-                <img src="assets/img/dine.png" alt="" class="img-fluid">
-                <figcaption class="ms-thumbnail-caption text-center">
-                    <div class="ms-thumbnail-caption-content">
-                        <h3 class="ms-thumbnail-caption-title">Dine</h3>
-                        <p>Lorem ipsum dolor sit amet</p>
-                        <a href="javascript:void(0)" class="btn btn-white btn-raised color-primary"><i class="zmdi zmdi-eye"></i> Visit Store</a>
-                    </div>
-                </figcaption>
-            </figure>
-        </div>
-        <div class="ms-thumbnail-container">
-            <figure class="ms-thumbnail">
-                <img src="assets/img/shop.png" alt="" class="img-fluid">
-                <figcaption class="ms-thumbnail-caption text-center">
-                    <div class="ms-thumbnail-caption-content">
-                        <h3 class="ms-thumbnail-caption-title">Shop</h3>
-                        <p>Lorem ipsum dolor sit amet</p>
-                        <a href="javascript:void(0)" class="btn btn-white btn-raised color-primary"><i class="zmdi zmdi-eye"></i> View more</a>
-                    </div>
-                </figcaption>
-            </figure>
-        </div>
-        
-    </div>
-    
-    <div class="col-sm-4 mb-2">
-        <div class="ms-thumbnail-container">
-            <figure class="ms-thumbnail">
-                <img src="assets/img/services.png" alt="" class="img-fluid">
-                <figcaption class="ms-thumbnail-caption text-center">
-                    <div class="ms-thumbnail-caption-content">
-                        <h3 class="ms-thumbnail-caption-title">Services</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        <a href="javascript:void(0)" class="btn btn-white btn-raised color-primary"><i class="zmdi zmdi-eye"></i> View more</a>
-                    </div>
-                </figcaption>
-            </figure>
-        </div>
-    </div>
-    
-    <div class="col-sm-4 mb-2">
-        <div class="ms-thumbnail-container">
-            <figure class="ms-thumbnail">
-                <img src="assets/img/stay.png" alt="" class="img-fluid">
-                <figcaption class="ms-thumbnail-caption text-center">
-                    <div class="ms-thumbnail-caption-content">
-                        <h3 class="ms-thumbnail-caption-title">Stay</h3>
-                        <p>Lorem ipsum dolor sit amet</p>
-                        <a href="javascript:void(0)" class="btn btn-white btn-raised color-primary"><i class="zmdi zmdi-eye"></i> View more</a>
-                    </div>
-                </figcaption>
-            </figure>
-        </div>
-    </div>
-    
-</div>
-        
       </div>
-    
-    
-    <aside class="logo-section mt-5">
-    <div class="container">
-        <div class="text-center">
-
-            <div class="row mb-4 mt-4">
-                <div class="col-lg-2">
-                    <img src="assets/img/logo01.png" alt="" class="img-fluid">
-                </div>
-                <div class="col-lg-2">
-                    <img src="assets/img/logo02.png" alt="" class="img-fluid">
-                </div>
-                <div class="col-lg-2">
-                    <img src="assets/img/logo03.png" alt="" class="img-fluid">
-                </div>
-                <div class="col-lg-2">
-                    <img src="assets/img/logo04.png" alt="" class="img-fluid">
-                </div>
-                <div class="col-lg-2">
-                    <img src="assets/img/logo05.png" alt="" class="img-fluid">
-                </div>
-                <div class="col-lg-2">
-                    <img src="assets/img/logo06.png" alt="" class="img-fluid">
-                </div>
 
 
-
+        <footer class="ms-footer">
+            <div class="container">
+                <p>© 2019 Red Development. All rights reserved</p>
             </div>
+        </footer>
+
+
+        <div class="btn-back-top">
+            <a href="index.html#" data-scroll id="back-top" class="btn-circle btn-circle-primary btn-circle-sm btn-circle-raised "><i class="zmdi zmdi-long-arrow-up"></i></a>
         </div>
-    </div>
-</aside>
-      
-      
-      <footer class="ms-footer">
-        <div class="container">
-          <p>© 2019 Red Development. All rights reserved</p>
-        </div>
-      </footer>
-      
-    
-    <div class="btn-back-top">
-        <a href="index.html#" data-scroll id="back-top" class="btn-circle btn-circle-primary btn-circle-sm btn-circle-raised "><i class="zmdi zmdi-long-arrow-up"></i></a>
-      </div>
-     
-    
-    <div class="ms-slidebar sb-slidebar sb-left sb-style-overlay" id="ms-slidebar">
-      <div class="sb-slidebar-container">
-        <header class="ms-slidebar-header">
-          <div class="ms-slidebar-login">
-            <a href="javascript:void(0)" class="withripple"><i class="zmdi zmdi-account"></i> Login</a>
-            <a href="javascript:void(0)" class="withripple"><i class="zmdi zmdi-account-add"></i> Register</a>
-          </div>
-          <div class="ms-slidebar-title">
-            <form class="search-form">
-              <input id="search-box-slidebar" type="text" class="search-input" placeholder="Search..." name="q" />
-              <label for="search-box-slidebar"><i class="zmdi zmdi-search"></i></label>
-            </form>
-<!--
+
+
+        <div class="ms-slidebar sb-slidebar sb-left sb-style-overlay" id="ms-slidebar">
+            <div class="sb-slidebar-container">
+                <header class="ms-slidebar-header">
+                    <div class="ms-slidebar-login">
+                        <a href="javascript:void(0)" class="withripple"><i class="zmdi zmdi-account"></i> Login</a>
+                        <a href="javascript:void(0)" class="withripple"><i class="zmdi zmdi-account-add"></i> Register</a>
+                    </div>
+                    <div class="ms-slidebar-title">
+                        <form class="search-form">
+                            <input id="search-box-slidebar" type="text" class="search-input" placeholder="Search..." name="q" />
+                            <label for="search-box-slidebar"><i class="zmdi zmdi-search"></i></label>
+                        </form>
+                        <!--
             <div class="ms-slidebar-t">
               <span class="ms-logo ms-logo-sm">M</span>
               <h3>Material<span>Style</span></h3>
             </div>
 -->
-          </div>
-        </header>
-        <ul class="ms-slidebar-menu" id="slidebar-menu" role="tablist" aria-multiselectable="true">
-          <li>
-            <a class="link" href="#"> Home</a>
-          </li>
+                    </div>
+                </header>
+                <ul class="ms-slidebar-menu" id="slidebar-menu" role="tablist" aria-multiselectable="true">
+                    <li>
+                        <a class="link" href="#"> Home</a>
+                    </li>
 
 
 
-          <li>
-            <a class="link" href="#"> Directory</a>
-          </li>
-          <li>
-            <a class="link" href="#"> Special Offer</a>
-          </li>
-            <li>
-            <a class="link" href="#"> Events</a>
-          </li>
-            <li>
-            <a class="link" href="#"> News</a>
-          </li>
-            <li>
-            <a class="link" href="#"> About</a>
-          </li>
-        </ul>
-        
-      </div>
-    </div>
-    
-    
-    <script src="assets/js/plugins.min.js"></script>
-    <script src="assets/js/app.min.js"></script>
-    <script src="assets/js/configurator.min.js"></script>
-    <script src="assets/js/index.js"></script>
-  </body>
+                    <li>
+                        <a class="link" href="#"> Directory</a>
+                    </li>
+                    <li>
+                        <a class="link" href="#"> Special Offer</a>
+                    </li>
+                    <li>
+                        <a class="link" href="#"> Events</a>
+                    </li>
+                    <li>
+                        <a class="link" href="#"> News</a>
+                    </li>
+                    <li>
+                        <a class="link" href="#"> About</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+
+
+        <script src="assets/js/plugins.min.js"></script>
+        <script src="assets/js/app.min.js"></script>
+        <script src="assets/js/configurator.min.js"></script>
+        <script src="assets/js/index.js"></script>
+</body>
+
 </html>
