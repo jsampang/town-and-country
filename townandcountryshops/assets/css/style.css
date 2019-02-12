@@ -334,6 +334,7 @@ img {
     text-transform: uppercase;
     letter-spacing: .5px;
     font-size: 16px;
+        margin-right: 12px;
 }
 .navbar-dark.main-nav-2 .navbar-nav .nav-link {
     color: #222;
