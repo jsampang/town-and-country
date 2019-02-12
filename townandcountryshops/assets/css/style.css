@@ -1340,7 +1340,7 @@ CONTACT
     margin-top: 25px;
 }
 .sub-form .form-control{
-    height: 60px;
+    height: 45px;
     border-radius: 5px;
 }
 .sub-form .w-btn-main {
@@ -2727,3 +2727,34 @@ ONepage STYLE
     justify-content: center;
 }
 }
+
+
+.btn-join {
+    font-size: 12px;
+    font-weight: 500;
+    position: relative;
+    text-transform: uppercase;
+    padding: 7px 25px;
+    border: 2px solid transparent;
+    transition: all 0.2s ease-in-out;
+    letter-spacing: 1px;
+    border-radius: .25rem;
+}
+
+/*
+@media (max-width: 640px) and (min-width: 478px) {
+.location-mobile {
+    text-align: center;
+    
+}
+    .float-lg-right2 {
+    margin:auto!important;
+}
+}
+
+
+@media (min-width: 992px) {
+.float-lg-right2 {
+    text-align: right;
+}
+}*/
