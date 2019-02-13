@@ -1733,10 +1733,10 @@ CASE STUDY-2
 .case-study-block:before{
     position: absolute;
     content:"";
-    left: 5px;
-    bottom: 10px;
-    width: 94%;
-    height: 95%;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
     background: rgba(238, 45, 80,.9);
 }
 .study-overlay-content{
@@ -2806,4 +2806,26 @@ ONepage STYLE
     background: #f4a245;
     color: #fff;
     border-color: #443986;
+}
+
+.location-cta {
+    background: url(../img/bg-02.jpg)repeat fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: 72% 75%;
+    background-size: 100%;
+}
+
+.cta-box-map {
+    background-color: #ffffffd6;
+    padding: 20px;
+    border: 2px solid #b7b7b7;
+    box-shadow: 5px 10px #88888863;
+}
+
+.footer {
+    background: #292929;
+    padding: 20px;
+    color: #fff;
+    font-size: 19px;
 }
