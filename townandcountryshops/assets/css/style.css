@@ -2759,3 +2759,22 @@ ONepage STYLE
     text-align: right;
 }
 }*/
+
+.text-gray {
+    color: #6c757d;
+}
+
+@media (min-width: 768px) {
+.section-icons {
+    padding: 47px 0;
+}
+}
+
+.logo-section {
+    background-color: #EDEEF0;
+    color: #a9a9a9;
+    position: relative;
+    margin-top: 40px;
+    margin-top: -41px;
+    padding: 6px 0px 10px;
+}
