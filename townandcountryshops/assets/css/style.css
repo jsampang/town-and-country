@@ -2778,3 +2778,32 @@ ONepage STYLE
     margin-top: -41px;
     padding: 6px 0px 10px;
 }
+
+.display-4 {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.display-5 {
+    font-size: 28px;
+}
+
+.calendar-cta {
+    background: url(../img/bg-01.jpg)no-repeat fixed 50% 20%;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.btn-yellow {
+    color: #000;
+    background: #F69221;
+    border-color: transparent;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.btn-yellow:hover {
+    background: #f4a245;
+    color: #fff;
+    border-color: #443986;
+}
