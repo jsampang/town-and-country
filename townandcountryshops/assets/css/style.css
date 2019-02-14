@@ -614,7 +614,7 @@ main-navigation-4{
     color: #EE2D50;
 }
 .main-nav{
-    background: #515151;
+    background: #262626;
 }
 
 
@@ -2789,7 +2789,7 @@ ONepage STYLE
 }
 
 .calendar-cta {
-    background: url(../img/bg-01.jpg)no-repeat fixed 50% 20%;
+    background: url(https://jsampang.github.io/town-and-country/townandcountryshops/assets/img/bg-01.jpg)no-repeat fixed 50% 20%; 
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -2809,7 +2809,7 @@ ONepage STYLE
 }
 
 .location-cta {
-    background: url(../img/bg-02.jpg)repeat fixed;
+    background: url(https://jsampang.github.io/town-and-country/townandcountryshops/assets/img/bg-02.jpg)repeat fixed;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: 72% 75%;
