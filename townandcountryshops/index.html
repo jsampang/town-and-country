@@ -14,6 +14,18 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
     <title>Town and Country Shop</title>
+    
+    <style>
+    .carousel-item {
+  height: 54vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+    </style>
 </head>
 
 <body class="top-header">
@@ -236,9 +248,60 @@
 
     <!-- HERO
     ================================================== -->
-    <section class="banner-area py-7" id="main-bannerx" style="background: url(assets/img/hero.jpg) no-repeat; background-size: cover;  background-position: center;">
+    
+    <!-- Navigation -->
+
+
+<header>
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <!-- Slide One - Set the background image for this slide in the line below -->
+      <div class="carousel-item active" style="background-image: url('assets/img/hero.jpg')">
+        <div class="carousel-caption d-none d-md-block">
+          <h2 class="display-4">First Slide</h2>
+          <p class="lead">This is a description for the first slide.</p>
+        </div>
+      </div>
+      <!-- Slide Two - Set the background image for this slide in the line below -->
+      <div class="carousel-item" style="background-image: url('https://source.unsplash.com/bF2vsubyHcQ/1920x1080')">
+        <div class="carousel-caption d-none d-md-block">
+          <h2 class="display-4">Second Slide</h2>
+          <p class="lead">This is a description for the second slide.</p>
+        </div>
+      </div>
+      <!-- Slide Three - Set the background image for this slide in the line below -->
+      <div class="carousel-item" style="background-image: url('https://source.unsplash.com/szFUQoyvrxM/1920x1080')">
+        <div class="carousel-caption d-none d-md-block">
+          <h2 class="display-4">Third Slide</h2>
+          <p class="lead">This is a description for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+  </div>
+</header>
+
+<!-- Page Content -->
+
+    
+    
+    
+    
+    <!-- <section class="banner-area py-7" id="main-bannerx" style="background: url(assets/img/hero.jpg) no-repeat; background-size: cover;  background-position: center;">
        <div ></div>
-        <!-- Content -->
+        
         <div class="container">
             <div class="row  justify-content-center align-items-center">
                 <div class="col-md-12 col-lg-7 text-center ">
@@ -246,9 +309,9 @@
                         
                     </div>
                 </div>
-            </div> <!-- / .row -->
+            </div> 
         </div>
-    </section>
+    </section> -->
 
     <!-- SECTIONS ICONS
     ================================================== -->  
