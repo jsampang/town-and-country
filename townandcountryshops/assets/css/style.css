@@ -2829,3 +2829,7 @@ ONepage STYLE
     color: #fff;
     font-size: 19px;
 }
+
+.fa-icn:hover {
+    color: #b0b5b9;
+}

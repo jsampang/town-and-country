@@ -3,6 +3,7 @@
 
 <head>
     <!-- Required meta tags -->
+    <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png"/>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -25,11 +26,129 @@
   -o-background-size: cover;
   background-size: cover;
 }
+        
+
+
+
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-slider
+{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+            user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
     </style>
 </head>
 
 <body class="top-header">
-
+    
    <header class="main-header">
     <div class="top-bar" id="top-bar">
         <div class="container">
@@ -252,7 +371,7 @@
     <!-- Navigation -->
 
 
-<header>
+<section>
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -260,22 +379,22 @@
       <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
     </ol>
     <div class="carousel-inner" role="listbox">
-      <!-- Slide One - Set the background image for this slide in the line below -->
-      <div class="carousel-item active" style="background-image: url('assets/img/hero.jpg')">
+
+      <div class="carousel-item active" style="background-image: url('assets/img/hero01.png')">
         <div class="carousel-caption d-none d-md-block">
           <h2 class="display-4">First Slide</h2>
           <p class="lead">This is a description for the first slide.</p>
         </div>
       </div>
-      <!-- Slide Two - Set the background image for this slide in the line below -->
-      <div class="carousel-item" style="background-image: url('https://source.unsplash.com/bF2vsubyHcQ/1920x1080')">
+
+      <div class="carousel-item" style="background-image: url('assets/img/hero02.png')">
         <div class="carousel-caption d-none d-md-block">
           <h2 class="display-4">Second Slide</h2>
           <p class="lead">This is a description for the second slide.</p>
         </div>
       </div>
-      <!-- Slide Three - Set the background image for this slide in the line below -->
-      <div class="carousel-item" style="background-image: url('https://source.unsplash.com/szFUQoyvrxM/1920x1080')">
+  
+      <div class="carousel-item" style="background-image: url('assets/img/hero03.png')">
         <div class="carousel-caption d-none d-md-block">
           <h2 class="display-4">Third Slide</h2>
           <p class="lead">This is a description for the third slide.</p>
@@ -291,7 +410,11 @@
           <span class="sr-only">Next</span>
         </a>
   </div>
-</header>
+</section>
+    
+    
+    
+    
 
 <!-- Page Content -->
 
@@ -319,25 +442,29 @@
         
         <div class="container">
             <div class="row">
-                <div class="col text-center"><i class="fas fa-store fa-3x"></i>
+                <div class="col text-center"><i class="fas fa-icn fa-store fa-3x"></i>
                     <h5 class="text-gray text-uppercase mt-3">Stores</h5>
                 </div>
-                <div class="col text-center"><i class="fas fa-tag fa-3x"></i>
+                <div class="col text-center"><i class="fas fa-icn fa-tag fa-3x"></i>
                     <h5 class="text-gray text-uppercase mt-3">Deals</h5>
                 </div>
-                <div class="col text-center"><i class="fas fa-calendar-alt fa-3x"></i>
+                <div class="col text-center"><i class="fas fa-icn fa-calendar-alt fa-3x"></i>
                     <h5 class="text-gray text-uppercase mt-3">Events</h5>
                 </div>
-                <div class="col text-center"><i class="fas fa-utensils fa-3x"></i>
+                <div class="col text-center"><i class="fas fa-icn fa-utensils fa-3x"></i>
                     <h5 class="text-gray text-uppercase mt-3">Food</h5>
                 </div>
-                <div class="col text-center"><i class="fas fa-newspaper fa-3x"></i>
+                <div class="col text-center"><i class="fas fa-icn fa-newspaper fa-3x"></i>
                     <h5 class="text-gray text-uppercase mt-3">News</h5>
                 </div>
             </div>
         </div>
     
     </section>
+    
+    
+    
+    
 
     
    <!-- IMAGE TILES
@@ -445,6 +572,7 @@
     
     <!-- STORES LOGOS
     ================================================== -->
+<!--
         <section class="logo-section">
             <div class="container">
                 <div class="row mb-4 mt-4 text-center">
@@ -470,6 +598,29 @@
                 </div>
             </div>
         </section>
+-->
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+<section class="logo-section"style="padding: 40px">
+    <div class="container">
+        <div class="customer-logos slider">
+            <div class="slide"><img src="assets/img/logo01.png" alt="" class="img-fluid"></div>
+            <div class="slide"><img src="assets/img/logo02.png" alt="" class="img-fluid"></div>
+            <div class="slide"><img src="assets/img/logo03.png" alt="" class="img-fluid"></div>
+            <div class="slide"><img src="assets/img/logo04.png" alt="" class="img-fluid"></div>
+            <div class="slide"><img src="assets/img/logo05.png" alt="" class="img-fluid"></div>
+            <div class="slide"><img src="assets/img/logo06.png" alt="" class="img-fluid"></div>
+
+            <div class="slide"><img src="assets/img/logo01.png" alt="" class="img-fluid"></div>
+            <div class="slide"><img src="assets/img/logo02.png" alt="" class="img-fluid"></div>
+            <div class="slide"><img src="assets/img/logo03.png" alt="" class="img-fluid"></div>
+            <div class="slide"><img src="assets/img/logo04.png" alt="" class="img-fluid"></div>
+            <div class="slide"><img src="assets/img/logo05.png" alt="" class="img-fluid"></div>
+            <div class="slide"><img src="assets/img/logo06.png" alt="" class="img-fluid"></div>
+
+        </div>
+    </div>
+</section>
     
         <section>
             <div class="calendar-cta section">
@@ -602,6 +753,31 @@
     <script src="assets/js/slick.min.js"></script>
     <!-- Theme JS -->
     <script src="assets/js/theme.js"></script>
+    
+    <script>
+    $(document).ready(function(){
+    $('.customer-logos').slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        arrows: false,
+        dots: false,
+        pauseOnHover: false,
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 4
+            }
+        }, {
+            breakpoint: 520,
+            settings: {
+                slidesToShow: 3
+            }
+        }]
+    });
+});
+    </script>
 
 
 </body>
