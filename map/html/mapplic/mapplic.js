@@ -41,7 +41,7 @@
 			maxscale: 3,
 			zoom: true,
 			zoommargin: 200,
-			developer: false
+			developer: true
 		};
 
 		self.loc = {
