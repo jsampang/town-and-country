@@ -42,6 +42,32 @@
 	],
 	"levels": [
 		{
+			"id": "underground",
+			"title": "Underground",
+			"map": "maps/mall/mall-underground.svg",
+			"minimap": "maps/mall/mall-underground-mini.jpg",
+			"locations": [
+				{
+					"id": "gap",
+					"title": "GAP",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "fashion",
+					"x": "0.3781",
+					"y": "0.4296"
+				},
+				{
+					"id": "petco",
+					"title": "Petco",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "others",
+					"x": "0.5311",
+					"y": "0.2686"
+				}
+			]
+		},
+		{
 			"id": "ground-floor",
 			"title": "Ground Floor",
 			"map": "maps/mall/mall-ground.svg",
@@ -155,6 +181,96 @@
 				}
 			]
 		},
-		
+		{
+			"id": "first-floor",
+			"title": "First Floor",
+			"map": "maps/mall/mall-first.svg",
+			"minimap": "maps/mall/mall-first-mini.jpg",
+			"locations": [
+				{
+					"id": "applebees",
+					"title": "Applebee's",
+					"about": "Lorem ipsum",
+					"description": "See you tomorrow",
+					"category": "food",
+					"x": "0.7536",
+					"y": "0.2196"
+				},
+				{
+					"id": "kfc",
+					"title": "KFC",
+					"about": "Lorem ipsum",
+					"description": "Kentucky Fried Chicken",
+					"category": "food",
+					"x": "0.7488",
+					"y": "0.4997"
+				},
+				{
+					"id": "mcdonalds",
+					"title": "McDonald's",
+					"about": "Lorem ipsum",
+					"description": "Additional information",
+					"category": "food",
+					"link": "https://1.envato.market/R5Nv",
+					"x": "0.7374",
+					"y": "0.3918"
+				},
+				{
+					"id": "pizzahut",
+					"title": "Pizza Hut",
+					"about": "Lorem ipsum",
+					"description": "Make it great",
+					"category": "food",
+					"x": "0.7092",
+					"y": "0.5232"
+				},
+				{
+					"id": "subway",
+					"title": "Subway",
+					"about": "Lorem ipsum",
+					"description": "Eat fresh.",
+					"category": "food",
+					"x": "0.6278",
+					"y": "0.2731"
+				},
+				{
+					"id": "cvs",
+					"title": "CVS Pharmacy",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum <a href=\"http://www.codecanyon.net\">dolor sit</a> amet, consectetur.",
+					"category": "health",
+					"link": "https://1.envato.market/R5Nv",
+					"x": "0.5104",
+					"y": "0.2471"
+				},
+				{
+					"id": "pullnbear",
+					"title": "Pull & Bear",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "fashion",
+					"x": "0.4846",
+					"y": "0.2946"
+				},
+				{
+					"id": "amc",
+					"title": "AMC Theatres",
+					"about": "Lorem ipsum",
+					"description": "Additional information",
+					"category": "others",
+					"x": "0.6671",
+					"y": "0.6851"
+				},
+				{
+					"id": "atnt",
+					"title": "AT&T",
+					"about": "Lorem ipsum",
+					"description": "Additional information",
+					"category": "others",
+					"x": "0.3750",
+					"y": "0.5391"
+				}
+			]
+		}
 	]
 }
