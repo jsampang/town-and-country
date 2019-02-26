@@ -181,7 +181,7 @@
 				}
 			]
 		},
-		{
+		/*{
 			"id": "first-floor",
 			"title": "First Floor",
 			"map": "maps/mall/mall-first.svg",
@@ -270,7 +270,7 @@
 					"x": "0.3750",
 					"y": "0.5391"
 				}
-			]
+			]*/
 		}
 	]
 }
