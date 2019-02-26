@@ -1,0 +1,16 @@
+{
+	"mapwidth":"3202",
+	"mapheight":"1635",
+	"categories":[
+
+	],
+	"levels":[
+		{
+			"id":"test",
+			"title":"Test",
+			"map":"cws.svg",
+			"locations":[
+			]
+		}
+	]
+}
