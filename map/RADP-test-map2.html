@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Test Map</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="https://jsampang.github.io/town-and-country/map/html/css/style.css">
+		<link rel="stylesheet" type="text/css" href="https://jsampang.github.io/town-and-country/map/html/mapplic/mapplic.css"> 
+	</head>
+	<body>
+		<div id="wrap">
+
+			<header id="header">
+				<div class="inner">
+
+
+					<h1>Town and Country</h1>
+
+					<div class="clear"></div>
+				</div>
+			</header>
+
+			<div id="content">
+				
+				<section id="map-section" class="inner over">
+					<div class="editor-window">
+						<div class="editor-body">
+							<code>
+								{<br>
+								&nbsp;&nbsp;&nbsp;"id": "newlandmark",<br>
+								&nbsp;&nbsp;&nbsp;"title": "New Landmark",<br>
+								&nbsp;&nbsp;&nbsp;"description": "Creating a new landmark is that easy!",<br>
+								&nbsp;&nbsp;&nbsp;"x": "<span class="mapplic-coordinates-x">0.0000</span>",<br>
+								&nbsp;&nbsp;&nbsp;"y": "<span class="mapplic-coordinates-y">0.0000</span>",<br>
+								&nbsp;&nbsp;&nbsp;...<br>
+								}
+							</code>
+						</div>
+					</div>
+
+					<div class="map-container">
+						<div id="mapplic"></div>
+					</div>
+
+					
+
+					
+				</section>
+
+
+
+			</div>
+
+
+		</div>
+
+		<!-- Scripts -->
+		<script type="text/javascript" src="https://jsampang.github.io/town-and-country/map/html/js/jquery.min.js"></script>
+		<script type="text/javascript" src="https://jsampang.github.io/town-and-country/map/html/js/hammer.min.js"></script>
+		<script type="text/javascript" src="https://jsampang.github.io/town-and-country/map/html/js/jquery.mousewheel.js"></script>
+		<script type="text/javascript" src="https://jsampang.github.io/town-and-country/map/html/js/script.js') %>"></script> 
+		<script type="text/javascript" src="https://jsampang.github.io/town-and-country/map/html/js/csvparser.js"></script>
+		<script type="text/javascript" src="https://jsampang.github.io/town-and-country/map/html/mapplic/mapplic.js"></script> 
+		<script type="text/javascript">
+			$(document).ready(function() {
+				var mapplic = $('#mapplic').mapplic({
+					source: 'https://jsampang.github.io/town-and-country/map/html/mall.json',	// Using mall.json file as map data
+					sidebar: true, 			// Enable sidebar
+					height: 500,
+					minimap: false,
+					marker: 'hidden', 		// Disable markers
+					fillcolor: false, 		// Disable default fill color
+					fullscreen: true, 		// Enable fullscreen 
+					developer: false,
+					thumbholder: true,
+					maxscale: 3
+				});
+			});
+		</script>
+	</body>
+</html>
