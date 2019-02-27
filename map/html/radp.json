@@ -6,13 +6,15 @@
 			"id": "Shops",
 			"title": "Shops",
 			"about": "Cothing Accessories $ Grocery",
-			"color": "#FF9595"
+			"color": "#FF9595",
+            "icon": "https://jsampang.github.io/town-and-country/map/html/images/shop.svg"
 		},
 		{
 			"id": "Food & Drinks",
 			"title": "Food & Drinks",
 			"about": "Food & Wine",
-			"color": "#FFB985"
+			"color": "#FFB985",
+            "icon": "https://jsampang.github.io/town-and-country/map/html/images/food.svg"
 		},
 		{
 			"id": "Services",
