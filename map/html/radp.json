@@ -56,6 +56,15 @@
 					"x": "0.2021",
 					"y": "0.5847",
 					"zoom": "2"
+				},
+                {
+					"id": "whole-foods",
+					"title": "WholeFoods",
+					"description": "WholeFoods",
+					"category": "Shops",
+					"x": "0.5972",
+					"y": "0.6428",
+					"zoom": "2"
 				}
 			]
 		}
