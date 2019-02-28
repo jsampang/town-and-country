@@ -1138,7 +1138,7 @@
 </g>
 <g id="mall-ground_1_">
 	
-		<image style="overflow:visible;" width="866" height="871" xlink:href="../../../../../../../Desktop/Screen Shot 2019-02-27 at 11.12.36 PM.png"  transform="matrix(-2.299600e-03 -0.7706 0.7706 -2.299600e-03 164.6277 515.0129)">
+		<image style="display:none;overflow:visible;" width="866" height="871" xlink:href="../../../../../../../Desktop/Screen Shot 2019-02-27 at 11.12.36 PM.png"  transform="matrix(-2.299600e-03 -0.7706 0.7706 -2.299600e-03 164.6277 515.0129)">
 	</image>
 	<path class="st73" d="M230,420.7h20v70.6h-20V420.7z"/>
 	<path class="st73" d="M226.5,11.9h16.6v38.4h-16.6V11.9z"/>
