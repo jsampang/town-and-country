@@ -29,40 +29,32 @@
 			"title": "First Floor",
 			"map": "https://jsampang.github.io/town-and-country/map/html/maps/mall/mall-ground.svg",
 			"minimap": "maps/mall/mall-first-mini.jpg",
+            "show": "true",
 			"locations": [
 				{
-					"id": "Athleta",
-					"title": "Athleta",
-					"about": "Lorem ipsum",
-					"description": "Lorem Ipsum",
+					"id": "Dunkin Donuts",
+					"title": "Dunkin Donuts",
+					"about": "Dunkin Donuts",
+					"description": "Dunkin' Donuts",
 					"category": "Shops",
-					"x": "0.7536",
-					"y": "0.2196"
+					"x": "0.2664",
+					"y": "0.1177"
 				},
 				{
-					"id": "Bluemercury",
-					"title": "Bluemercury",
-					"about": "Lorem ipsum",
-					"description": "Lorem Ipsum",
+					"id": "Orvis",
+					"title": "Orvis",
+					"about": "Orvis",
+					"description": "Orvis",
 					"category": "Shops",
-					"x": "0.3750",
-					"y": "0.5391"
-				},
-                {
-					"id": "macys",
-					"title": "Macy's",
-					"description": "Macy's <i>department</i> store",
-					"category": "dep",
-					"x": "0.2021",
-					"y": "0.5847",
-					"zoom": "2"
+					"x": "0.2716",
+					"y": "0.8538"
 				},
                 {
 					"id": "whole-foods",
 					"title": "WholeFoods",
 					"description": "WholeFoods",
 					"category": "Shops",
-					"x": "0.5972",
+					"x": "0.6924",
 					"y": "0.6428",
 					"zoom": "2"
 				}
