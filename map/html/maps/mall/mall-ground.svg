@@ -1209,7 +1209,7 @@
 		<rect id="dunkindonut" x="128.22" y="18.92" fill-rule="evenodd" clip-rule="evenodd" fill="#A0A0A0" width="26.17" height="65.11"/>
 	<rect id="orvis" x="134.6" y="610.68" fill-rule="evenodd" clip-rule="evenodd" fill="#A0A0A0" width="28.73" height="102.14"/>
 	
-		<rect id="matress_firm" x="921.7" y="480.13" fill-rule="evenodd" clip-rule="evenodd" fill="#A0A0A0" width="28.3" height="56.49"/>
+		<rect id="matressfirm" x="921.7" y="480.13" fill-rule="evenodd" clip-rule="evenodd" fill="#A0A0A0" width="28.3" height="56.49"/>
 	<path id="wholefoods" fill-rule="evenodd" clip-rule="evenodd" fill="#A0A0A0" d="M949.86,435.13c-1.31,0-85.5,0-85.5,0v-7.27
 		h-51.91v7.27h-57.87v101.35h31.99v8.58h131.88v-68.49c0,0,31.55,1.31,31.55,0C950,475.26,949.86,435.13,949.86,435.13z"/>
 </g>
