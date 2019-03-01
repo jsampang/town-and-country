@@ -1204,15 +1204,26 @@
 	<polygon id="base" fill-rule="evenodd" clip-rule="evenodd" fill="#DED9C3" points="776.58,97.61 389.76,97.61 389.76,30.44 
 		231.29,30.44 231.29,467.38 776.58,467.38 	"/>
 </g>
+<g id="shadows">
+	<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#383838" points="634.37,350.54 653.84,350.54 653.84,355.96 733.3,355.96 
+		734.58,353.6 655.45,353.6 655.45,348.44 636.1,348.44 636.1,287.53 634.32,289.32 	"/>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M753.55,348.54h-17.01v-33.95c0,0-1.95,1.86-1.95,2.3
+		s0,34.18,0,34.18h17.22L753.55,348.54"/>
+</g>
 <g id="landmarks-large-ground_1_">
+	<rect id="tokyojoe" x="347.52" y="37.39" fill="#ECECEC" width="25.02" height="39.13"/>
+	<rect id="fedex" x="314.37" y="37.39" fill="#ECECEC" width="30.29" height="39.13"/>
+	<rect id="caferio" x="277.94" y="37.39" fill="#ECECEC" width="33.59" height="39.13"/>
 	
-		<rect id="matressfirm" x="736.54" y="314.58" fill-rule="evenodd" clip-rule="evenodd" fill="#A0A0A0" width="17.01" height="33.95"/>
+		<rect id="dunkindonut" x="259.65" y="37.39" fill-rule="evenodd" clip-rule="evenodd" fill="#ECECEC" width="15.73" height="39.13"/>
+	<rect id="firstbank" x="439.01" y="393.04" fill="#ECECEC" width="31.9" height="61.39"/>
+	<rect id="containerstore" x="327.2" y="393.04" fill="#ECECEC" width="85.61" height="61.39"/>
 	
-		<rect id="dunkindonut" x="259.65" y="37.39" fill-rule="evenodd" clip-rule="evenodd" fill="#A0A0A0" width="15.73" height="39.13"/>
-	<rect id="orvis" x="263.49" y="393.04" fill-rule="evenodd" clip-rule="evenodd" fill="#A0A0A0" width="17.26" height="61.39"/>
+		<rect id="forever21" x="282.66" y="393.04" fill-rule="evenodd" clip-rule="evenodd" fill="#ECECEC" width="33.26" height="61.39"/>
+	<rect id="orvis" x="263.49" y="393.04" fill-rule="evenodd" clip-rule="evenodd" fill="#ECECEC" width="17.26" height="61.39"/>
 	
-		<rect id="forever21" x="282.66" y="393.04" fill-rule="evenodd" clip-rule="evenodd" fill="#A0A0A0" width="33.26" height="61.39"/>
-	<path id="wholefoods" fill-rule="evenodd" clip-rule="evenodd" fill="#A0A0A0" d="M753.46,287.53c-0.79,0-51.38,0-51.38,0v-4.37
+		<rect id="matressfirm" x="736.54" y="314.58" fill-rule="evenodd" clip-rule="evenodd" fill="#ECECEC" width="17.01" height="33.95"/>
+	<path id="wholefoods" fill-rule="evenodd" clip-rule="evenodd" fill="#818181" d="M753.46,287.53c-0.79,0-51.38,0-51.38,0v-4.37
 		h-31.2v4.37H636.1v60.91h19.23v5.16h79.26v-41.16c0,0,18.96,0.79,18.96,0S753.46,287.53,753.46,287.53z"/>
 </g>
 <g id="nopointer-logos_1_">
