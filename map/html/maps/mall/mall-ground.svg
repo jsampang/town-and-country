@@ -1200,16 +1200,16 @@
 </g>
 <image display="none" overflow="visible" enable-background="new    " width="866" height="871" id="map_guide" xlink:href="../../../../../../../Desktop/Screen Shot 2019-02-27 at 11.12.36 PM.png"  transform="matrix(-2.009591e-03 -0.6734 0.6734 -2.009591e-03 214.6452 480.4993)">
 </image>
-<g id="base-ground_1_" display="none">
-	<polygon id="base" display="inline" fill-rule="evenodd" clip-rule="evenodd" fill="#DED9C3" points="776.58,97.61 389.76,97.61 
-		389.76,30.44 231.29,30.44 231.29,467.38 776.58,467.38 	"/>
+<g id="base-ground_1_">
+	<polygon id="base" fill-rule="evenodd" clip-rule="evenodd" fill="#DED9C3" points="776.58,97.61 389.76,97.61 389.76,30.44 
+		231.29,30.44 231.29,467.38 776.58,467.38 	"/>
 </g>
 <g id="landmarks-large-ground_1_">
 	
 		<rect id="dunkindonut" x="259.65" y="37.39" fill-rule="evenodd" clip-rule="evenodd" fill="#A0A0A0" width="15.73" height="39.13"/>
 	<rect id="orvis" x="263.49" y="393.04" fill-rule="evenodd" clip-rule="evenodd" fill="#A0A0A0" width="17.26" height="61.39"/>
 	
-		<rect id="matress_firm" x="736.54" y="314.58" fill-rule="evenodd" clip-rule="evenodd" fill="#A0A0A0" width="17.01" height="33.95"/>
+		<rect id="matressfirm" x="736.54" y="314.58" fill-rule="evenodd" clip-rule="evenodd" fill="#A0A0A0" width="17.01" height="33.95"/>
 	<path id="wholefoods" fill-rule="evenodd" clip-rule="evenodd" fill="#A0A0A0" d="M753.46,287.53c-0.79,0-51.38,0-51.38,0v-4.37
 		h-31.2v4.37H636.1v60.91h19.23v5.16h79.26v-41.16c0,0,18.96,0.79,18.96,0S753.46,287.53,753.46,287.53z"/>
 </g>
