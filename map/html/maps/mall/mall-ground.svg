@@ -1201,7 +1201,7 @@
 <image display="none" overflow="visible" enable-background="new    " width="866" height="871" id="map_guide" xlink:href="../../../../../../../Desktop/Screen Shot 2019-02-27 at 11.12.36 PM.png"  transform="matrix(-2.009591e-03 -0.6734 0.6734 -2.009591e-03 214.6452 480.4993)">
 </image>
 <g id="base-ground_1_">
-	<polygon id="base" fill-rule="evenodd" clip-rule="evenodd" fill="#DED9C3" points="776.58,97.61 389.76,97.61 389.76,30.44 
+	<polygon id="base" fill-rule="evenodd" clip-rule="evenodd" fill="#DED9C3" points="776.58,97.61 424.76,97.61 424.76,30.44 
 		231.29,30.44 231.29,467.38 776.58,467.38 	"/>
 </g>
 <g id="shadows">
@@ -1211,9 +1211,13 @@
 		s0,34.18,0,34.18h17.22L753.55,348.54"/>
 </g>
 <g id="landmarks-large-ground_1_">
-	<rect id="tokyojoe" x="347.52" y="37.39" fill="#ECECEC" width="25.02" height="39.13"/>
-	<rect id="fedex" x="314.37" y="37.39" fill="#ECECEC" width="30.29" height="39.13"/>
-	<rect id="caferio" x="277.94" y="37.39" fill="#ECECEC" width="33.59" height="39.13"/>
+	<rect id="tokyojoe" x="396.52" y="37.39" fill="#ECECEC" width="15.02" height="39.13"/>
+	<rect id="luxenailbar" x="377.02" y="37.39" fill="#ECECEC" width="15.02" height="39.13"/>
+	<rect id="fedex" x="356.88" y="37.39" fill="#ECECEC" width="16.29" height="39.13"/>
+	<rect id="potbellysandwichworks" x="337.38" y="37.39" fill="#ECECEC" width="16.29" height="39.13"/>
+	<rect id="caferio" x="317.73" y="37.39" fill="#ECECEC" width="16.59" height="39.13"/>
+	<rect id="brightnowdental" x="298.23" y="37.39" fill="#ECECEC" width="16.59" height="39.13"/>
+	<rect id="primpandblow" x="278.73" y="37.39" fill="#ECECEC" width="16.59" height="39.13"/>
 	
 		<rect id="dunkindonut" x="259.65" y="37.39" fill-rule="evenodd" clip-rule="evenodd" fill="#ECECEC" width="15.73" height="39.13"/>
 	<rect id="firstbank" x="439.01" y="393.04" fill="#ECECEC" width="31.9" height="61.39"/>
