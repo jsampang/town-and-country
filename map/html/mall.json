@@ -70,7 +70,7 @@
 		{
 			"id": "ground-floor",
 			"title": "Ground Floor",
-			"map": "maps/mall/mall-ground-red.svg",
+			"map": "maps/mall/mall-ground-old.svg",
 			"minimap": "maps/mall/mall-ground-mini.jpg",
 			"show": "true",
 			"locations": [
