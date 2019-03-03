@@ -1006,14 +1006,14 @@
 			</g>
 		</g>
 	</g>
-	<g id="new" display="none">
+	<g id="new">
 		
-			<image overflow="visible" enable-background="new    " width="866" height="871" id="map_guide" xlink:href="Screen Shot 2019-02-27 at 11.12.36 PM.png"  transform="matrix(-2.964171e-03 -0.3924 0.9932 -1.171163e-03 91.4492 410.8641)">
+			<image display="none" overflow="visible" enable-background="new    " width="866" height="871" id="map_guide" xlink:href="Screen Shot 2019-02-27 at 11.12.36 PM.png"  transform="matrix(-2.964171e-03 -0.3924 0.9932 -1.171163e-03 91.4492 410.8641)">
 		</image>
 		
-			<image overflow="visible" enable-background="new    " width="866" height="871" id="map_guide_1_" xlink:href="Screen Shot 2019-02-27 at 11.12.36 PM.png"  transform="matrix(-2.964171e-03 -0.3924 0.9932 -1.171163e-03 108.4492 415.8714)">
+			<image display="none" overflow="visible" enable-background="new    " width="866" height="871" id="map_guide_1_" xlink:href="Screen Shot 2019-02-27 at 11.12.36 PM.png"  transform="matrix(-2.964171e-03 -0.3924 0.9932 -1.171163e-03 108.4492 415.8714)">
 		</image>
-		<g id="base-ground_1_">
+		<g id="base-ground_1_" display="none">
 			<polygon display="inline" fill="#DED9C3" points="861.88,376.89 861.88,369.12 881.59,369.12 881.59,276.6 710.44,276.6 
 				710.44,228.98 597.44,176.31 600.01,171.25 533.59,137.82 521.73,152.74 477.45,130.54 482.59,123.51 460.88,110.92 
 				449.74,123.75 400.16,96.49 363.46,146.95 361.45,206.16 448.03,248.84 463.88,228.37 538.73,265.37 703.45,340.5 703.45,378.62 
@@ -1021,7 +1021,7 @@
 			<polygon id="base" fill-rule="evenodd" clip-rule="evenodd" fill="#DED9C3" points="912.63,32.42 406.38,32.42 406.38,-32.01 
 				137.03,-32.01 137.03,491.96 912.63,491.96 			"/>
 		</g>
-		<g id="shadows">
+		<g id="shadows" display="none">
 			<polygon display="inline" fill-rule="evenodd" clip-rule="evenodd" fill="#383838" points="706.16,364.31 733.87,364.31 
 				733.87,371.1 847.45,371.1 849.3,368.14 736.3,368.14 736.3,361.72 708.59,361.72 708.59,286.59 706.02,288.81 			"/>
 			<path display="inline" fill-rule="evenodd" clip-rule="evenodd" fill="#9E9E9E" d="M876.31,361.84h-24.28V319.9
@@ -1035,7 +1035,7 @@
 				533.02,147.56 536.59,145.71 496.45,202.46 484.31,195.55 466.59,220.35 534.45,255.14 546.17,238.23 623.59,275.37 
 				623.59,286.59 642.31,286.59 652.88,293.75 662.44,293.75 			"/>
 		</g>
-		<g id="landmarks-large-ground_1_">
+		<g id="landmarks-large-ground_1_" display="none">
 			<rect id="tokyojoe" x="366.3" y="4.99" display="inline" fill="#ECECEC" width="21.42" height="48.23"/>
 			<rect id="luxenailbar" x="338.45" y="4.99" display="inline" fill="#ECECEC" width="21.42" height="48.23"/>
 			<rect id="fedex" x="309.73" y="4.99" display="inline" fill="#ECECEC" width="23.29" height="48.23"/>
@@ -1064,7 +1064,18 @@
 				l-26.29,36.52l-13.86-7.53l-29.43,42.44c0,0-10.01,4.32-11.29,2.96s-70.57-37.13-70.57-37.13l1.85-48.97l27.86-40.34l53,26.52
 				l9.72-14.31l10.71,5.67l-5.57,7.65L522.3,158.67z"/>
 		</g>
-		<g id="nopointer-logos_1_">
+		<g id="landmarks-large-ground_2_">
+			<g>
+				<path fill-rule="evenodd" clip-rule="evenodd" fill="#B7B7B7" d="M222.33,477.9h102.12v-19.11h-99.91L222.33,477.9z
+					 M404.52,344.65H237.76l-3.67,18.6h-11.75l-12.49,92.52h117.54v21.62h71.26l2.94-60.34h14.69v-32.68h-13.22L404.52,344.65z
+					 M581.57,207.88l10.29-6.54l-49.96-10.06l-61.71,39.72l44.08,9.55l-6.61,4.02l-7.35-1.01l-8.82,7.04l-6.61-1.01l-62.45,39.72
+					h-26.45v17.1l-8.82,3.52l0.73,3.52l72,28.66l26.45,0.5l18.37-11.57l6.61,2.01l38.94-25.64l9.55,2.01l64.73-44.83l13.87,2.59
+					l49.22-33.19L584.51,211.4L581.57,207.88z M682.22,136.98l-94.77-1.51l-66.12,39.72l2.94,6.03l88.89,17.6l-16.9,12.57
+					l71.26,14.08l50.63-35.82l19.89,4.14l6.61-4.53l-27.92-5.53c0,0,47.55-31.35,45.55-31.68S682.22,136.98,682.22,136.98z
+					 M211.48,30.38h-72.73l-2.2,8.55l73.46-0.5L211.48,30.38z M890.12,30.38h-72l2.2,8.55h72.73L890.12,30.38z"/>
+			</g>
+		</g>
+		<g id="nopointer-logos_1_" display="none">
 			<g id="wholefoods-logo" transform="matrix(1.25,0,0,-1.25,-1250.3381,2253.8496)" display="inline">
 				<path id="path3" fill="#FFFFFF" d="M1625.07,1557.05c0.29,0,0.29,0.25,0.57,0.62c0.29,0.37,1.15,1.23,2.43,1.23
 					c1,0,2-0.49,2.86-1.11c0.86-0.49,1.42-0.62,1.42-0.86c0-0.12-0.14-0.12-0.29-0.12c-0.86,0-2.14,0.99-3.57,0.99
@@ -1268,7 +1279,7 @@
 					c0.29-0.37,0.43-0.74,0.29-1.11c-0.14-0.49-0.57-0.62-1.15-0.62h-0.57v2.59v2.59h-1v-2.59L432.02,155.21L432.02,155.21z"/>
 			</g>
 		</g>
-		<g id="roads">
+		<g id="roads" display="none">
 			<rect id="road_1_" x="125.85" y="472.92" display="inline" fill="#777777" width="779.41" height="28.44"/>
 			<rect id="road_2_" x="114.32" y="0.53" display="inline" fill="#777777" width="33.42" height="500.55"/>
 			<rect id="road_3_" x="885.58" y="-0.47" display="inline" fill="#777777" width="33.42" height="500.55"/>
@@ -1281,17 +1292,6 @@
 			<rect x="895.67" y="212.26" display="inline" fill="none" width="17.62" height="87.72"/>
 			
 				<text transform="matrix(4.489659e-11 -0.8635 1 3.877030e-11 909.2383 299.983)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-SemiboldIt'" font-size="16.2122px">E Highland </text>
-		</g>
-	</g>
-	<g>
-		<g>
-			<path fill-rule="evenodd" clip-rule="evenodd" fill="#B7B7B7" d="M222.33,477.9h102.12v-19.11h-99.91L222.33,477.9z
-				 M404.52,344.65H237.76l-3.67,18.6h-11.75l-12.49,92.52h117.54v21.62h71.26l2.94-60.34h14.69v-32.68h-13.22L404.52,344.65z
-				 M581.57,207.88l10.29-6.54l-49.96-10.06l-61.71,39.72l44.08,9.55l-6.61,4.02l-7.35-1.01l-8.82,7.04l-6.61-1.01l-62.45,39.72
-				h-26.45v17.1l-8.82,3.52l0.73,3.52l72,28.66l26.45,0.5l18.37-11.57l6.61,2.01l38.94-25.64l9.55,2.01l64.73-44.83l13.87,2.59
-				l49.22-33.19L584.51,211.4L581.57,207.88z M682.22,136.98l-94.77-1.51l-66.12,39.72l2.94,6.03l88.89,17.6l-16.9,12.57
-				l71.26,14.08l50.63-35.82l19.89,4.14l6.61-4.53l-27.92-5.53c0,0,47.55-31.35,45.55-31.68S682.22,136.98,682.22,136.98z
-				 M211.48,30.38h-72.73l-2.2,8.55l73.46-0.5L211.48,30.38z M890.12,30.38h-72l2.2,8.55h72.73L890.12,30.38z"/>
 		</g>
 	</g>
 	<g id="Layer_3">
@@ -1413,7 +1413,7 @@
 <g id="Layer_2" display="none">
 	<g id="XPwtv9_1_" display="inline">
 		
-			<image overflow="visible" width="928" height="1126" id="XPwtv9" xlink:href="B351BD6F0CFC761A.jpg"  transform="matrix(0.4375 0 0 0.4375 249.28 -1.24)">
+			<image overflow="visible" width="928" height="1126" id="XPwtv9" xlink:href="B351BD6F0CFC761D.jpg"  transform="matrix(0.4375 0 0 0.4375 249.28 -1.24)">
 		</image>
 	</g>
 </g>
