@@ -77,16 +77,15 @@
 	.st70{fill:#444445;}
 	.st71{fill:#0B7756;}
 	.st72{fill:#333333;}
-	.st73{display:none;fill:#DED9C3;}
-	.st74{fill-rule:evenodd;clip-rule:evenodd;fill:#DED9C3;}
-	.st75{fill-rule:evenodd;clip-rule:evenodd;fill:#383838;}
-	.st76{fill-rule:evenodd;clip-rule:evenodd;fill:#9E9E9E;}
-	.st77{fill:#383838;}
-	.st78{fill-rule:evenodd;clip-rule:evenodd;fill:#ECECEC;}
-	.st79{fill-rule:evenodd;clip-rule:evenodd;fill:#818181;}
-	.st80{fill:#777777;}
-	.st81{font-family:'MyriadPro-Regular';}
-	.st82{font-size:14px;}
+	.st73{display:none;fill-rule:evenodd;clip-rule:evenodd;fill:#DED9C3;}
+	.st74{fill-rule:evenodd;clip-rule:evenodd;fill:#383838;}
+	.st75{fill-rule:evenodd;clip-rule:evenodd;fill:#9E9E9E;}
+	.st76{fill:#383838;}
+	.st77{fill-rule:evenodd;clip-rule:evenodd;fill:#ECECEC;}
+	.st78{fill-rule:evenodd;clip-rule:evenodd;fill:#818181;}
+	.st79{fill:#777777;}
+	.st80{font-family:'MyriadPro-Regular';}
+	.st81{font-size:14px;}
 </style>
 <g id="old" class="st0">
 	<g id="mall-ground" class="st1">
@@ -1088,18 +1087,18 @@
 		<image style="display:none;overflow:visible;enable-background:new    ;" width="866" height="871" id="map_guide" xlink:href="Screen Shot 2019-02-27 at 11.12.36 PM.png"  transform="matrix(-2.209645e-03 -0.7404 0.7404 -2.209645e-03 214.8185 496.5662)">
 	</image>
 	<g id="base-ground_1_">
-		<polygon class="st73" points="796.2,364.8 796.2,357.9 811.4,357.9 811.4,275.4 679.7,275.4 679.7,233 592.7,186.1 594.7,181.5 
+		<polygon class="st16" points="796.2,364.8 796.2,357.9 811.4,357.9 811.4,275.4 679.7,275.4 679.7,233 592.7,186.1 594.7,181.5 
 			543.5,151.7 534.4,165.1 500.3,145.3 504.3,139 487.6,127.8 479,139.2 440.8,114.9 412.6,159.9 411,212.7 477.7,250.7 
 			489.9,232.5 547.5,265.4 674.3,332.4 674.3,366.4 		"/>
-		<polygon id="base" class="st74" points="835.3,57.8 445.6,57.8 445.6,0.4 238.3,0.4 238.3,467.4 835.3,467.4 		"/>
+		<polygon id="base" class="st73" points="835.3,57.8 445.6,57.8 445.6,0.4 238.3,0.4 238.3,467.4 835.3,467.4 		"/>
 	</g>
 	<g id="shadows">
-		<polygon class="st75" points="676.4,353.6 697.7,353.6 697.7,359.7 785.1,359.7 786.5,357 699.6,357 699.6,351.3 678.2,351.3 
+		<polygon class="st74" points="676.4,353.6 697.7,353.6 697.7,359.7 785.1,359.7 786.5,357 699.6,357 699.6,351.3 678.2,351.3 
 			678.2,284.4 676.2,286.3 		"/>
-		<path class="st76" d="M807.3,351.4h-18.7V314c0,0-2.2,2.1-2.2,2.5s0,37.6,0,37.6h18.9L807.3,351.4"/>
-		<polygon class="st76" points="264.2,9.4 264.2,52.3 281.6,52.3 280.2,54.4 262.8,54.4 262.8,11.1 		"/>
-		<polygon class="st76" points="285.1,9.4 285.1,52.3 303.5,52.3 301.9,54.4 283.7,54.4 283.7,11.1 		"/>
-		<polygon class="st77" points="674.3,260.2 674.3,263.6 642.4,293.9 634.1,293.9 626.9,287.1 610.8,287.4 610.8,275 553.2,243.6 
+		<path class="st75" d="M807.3,351.4h-18.7V314c0,0-2.2,2.1-2.2,2.5s0,37.6,0,37.6h18.9L807.3,351.4"/>
+		<polygon class="st75" points="264.2,9.4 264.2,52.3 281.6,52.3 280.2,54.4 262.8,54.4 262.8,11.1 		"/>
+		<polygon class="st75" points="285.1,9.4 285.1,52.3 303.5,52.3 301.9,54.4 283.7,54.4 283.7,11.1 		"/>
+		<polygon class="st76" points="674.3,260.2 674.3,263.6 642.4,293.9 634.1,293.9 626.9,287.1 610.8,287.4 610.8,275 553.2,243.6 
 			543.8,258.8 487.9,226.1 501.6,204.6 505.8,201.9 514.4,207.4 543.1,160.4 545.8,158.8 514.9,209.4 505.6,203.2 492,225.3 
 			544.2,256.3 553.2,241.3 612.8,274.3 612.8,284.4 627.2,284.4 635.3,290.7 642.7,290.7 		"/>
 	</g>
@@ -1111,18 +1110,18 @@
 		<rect id="caferio" x="328.1" y="9.4" class="st22" width="18.3" height="43"/>
 		<rect id="brightnowdental" x="306.7" y="9.4" class="st22" width="18.3" height="43"/>
 		<rect id="primpandblow" x="285.2" y="9.4" class="st22" width="18.3" height="43"/>
-		<rect id="dunkindonut" x="264.2" y="9.4" class="st78" width="17.3" height="43"/>
+		<rect id="dunkindonut" x="264.2" y="9.4" class="st77" width="17.3" height="43"/>
 		<rect id="firstbank" x="461.5" y="400.4" class="st22" width="35.1" height="67.5"/>
 		<rect id="containerstore" x="338.6" y="400.4" class="st22" width="94.1" height="67.5"/>
-		<rect id="forever21" x="289.6" y="400.4" class="st78" width="36.6" height="67.5"/>
-		<rect id="orvis" x="268.5" y="400.4" class="st78" width="19" height="67.5"/>
-		<rect id="matressfirm" x="788.6" y="314.2" class="st78" width="18.7" height="37.4"/>
-		<path id="wholefoods" class="st79" d="M807.3,284.4c-0.9,0-56.5,0-56.5,0v-4.8h-34.3v4.8h-38.3v67h21.1v5.7h87.2v-45.3
+		<rect id="forever21" x="289.6" y="400.4" class="st77" width="36.6" height="67.5"/>
+		<rect id="orvis" x="268.5" y="400.4" class="st77" width="19" height="67.5"/>
+		<rect id="matressfirm" x="788.6" y="314.2" class="st77" width="18.7" height="37.4"/>
+		<path id="wholefoods" class="st78" d="M807.3,284.4c-0.9,0-56.5,0-56.5,0v-4.8h-34.3v4.8h-38.3v67h21.1v5.7h87.2v-45.3
 			c0,0,20.9,0.9,20.9,0C807.4,310.9,807.3,284.4,807.3,284.4z"/>
-		<polygon id="lafitness" class="st79" points="674.3,260.2 642.7,290.7 635.3,290.7 627.2,284.4 612.8,284.4 612.8,274.3 
+		<polygon id="lafitness" class="st78" points="674.3,260.2 642.7,290.7 635.3,290.7 627.2,284.4 612.8,284.4 612.8,274.3 
 			553.4,241.3 544.2,256.3 492,225.3 505.6,203.2 514.9,209.4 545.8,158.8 587.3,182.3 584,187.9 629.5,214.5 633,214.2 
 			657.8,228.1 655.2,233.4 674.3,243.1 		"/>
-		<path id="nordstromrack" class="st79" d="M534.8,170.3l-20.2,32.5l-10.7-6.7L481.3,234c0,0-7.7,3.8-8.7,2.6
+		<path id="nordstromrack" class="st78" d="M534.8,170.3l-20.2,32.5l-10.7-6.7L481.3,234c0,0-7.7,3.8-8.7,2.6
 			c-1-1.2-54.3-33.1-54.3-33.1l1.4-43.7l21.4-36l40.8,23.6l7.5-12.8l8.2,5.1l-4.3,6.8L534.8,170.3z"/>
 	</g>
 	<g id="nopointer-logos_1_">
@@ -1297,9 +1296,15 @@
 				v2.3h-0.8v-2.3H465.4z"/>
 		</g>
 	</g>
-</g>
-<g id="road">
-	<rect id="road_1_" x="214.8" y="472.1" class="st80" width="655.1" height="28.4"/>
-	<text transform="matrix(1 0 0 1 502.8731 491.9051)" class="st69 st81 st82">20th Street</text>
+	<g id="roads">
+		<rect id="road_1_" x="214.8" y="472.1" class="st79" width="655.1" height="28.4"/>
+		
+			<rect id="road_2_" x="-31" y="235.6" transform="matrix(5.964324e-11 -1 1 5.964324e-11 -30.7489 469.2511)" class="st79" width="500.5" height="28.9"/>
+		
+			<rect id="road_3_" x="605" y="234.6" transform="matrix(5.964524e-11 -1 1 5.964524e-11 606.2688 1104.2688)" class="st79" width="500.5" height="28.9"/>
+		<text transform="matrix(1 0 0 1 502.8731 491.9051)" class="st69 st80 st81">N 20th Street</text>
+		<text transform="matrix(4.489659e-11 -1 1 4.489659e-11 222.9171 279.5156)" class="st69 st80 st81">E Camelback Rd</text>
+		<text transform="matrix(4.489659e-11 -1 1 4.489659e-11 860.2689 299.1699)" class="st69 st80 st81">E Highland Ave</text>
+	</g>
 </g>
 </svg>
