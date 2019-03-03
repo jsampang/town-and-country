@@ -45,7 +45,7 @@
 		};
 
 		self.loc = {
-			more: 'More',
+			more: 'link',
 			search: 'Search',
 		}
 
