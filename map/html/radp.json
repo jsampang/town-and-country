@@ -10,7 +10,7 @@
             "icon": "https://jsampang.github.io/town-and-country/map/html/images/shop.svg"
 		},
 		{
-			"id": "Food & Drinks",
+			"id": "Foods",
 			"title": "Food & Drinks",
 			"about": "Food & Wine",
 			"color": "#FFB985",
@@ -27,36 +27,61 @@
 		{
 			"id": "first-floor",
 			"title": "First Floor",
-			"map": "https://jsampang.github.io/town-and-country/map/html/maps/mall/mall-ground.svg",
+			"map": "https://jsampang.github.io/town-and-country/map/html/maps/mall/mall-ground2.svg",
 			"minimap": "maps/mall/mall-first-mini.jpg",
             "show": "true",
 			"locations": [
 				{
-					"id": "Dunkin Donuts",
+					"id": "dunkindonut",
 					"title": "Dunkin Donuts",
 					"about": "Dunkin Donuts",
 					"description": "Dunkin' Donuts",
-					"category": "Shops",
-					"x": "0.2664",
-					"y": "0.1177"
+					"category": "Foods",
+					"x": "0.8565",
+					"y": "0.0696"
 				},
 				{
-					"id": "Orvis",
+					"id": "orvis",
 					"title": "Orvis",
 					"about": "Orvis",
 					"description": "Orvis",
 					"category": "Shops",
-					"x": "0.2716",
-					"y": "0.8538"
+					"x": "0.1728",
+					"y": "0.0716"
 				},
                 {
-					"id": "whole-foods",
+					"id": "wholefoods",
 					"title": "WholeFoods",
 					"description": "WholeFoods",
 					"category": "Shops",
-					"x": "0.6924",
-					"y": "0.6428",
+					"x": "0.3095",
+					"y": "0.7638",
 					"zoom": "2"
+				},
+                {
+					"id": "matressfirm",
+					"title": "Matress Firm",
+					"description": "Matress Firm",
+					"category": "Shops",
+					"x": "0.2761",
+					"y": "0.8873"
+				},
+                {
+					"id": "lafitness",
+					"title": "LA Fitness",
+					"description": "LA Fitness",
+					"category": "Services",
+					"x": "0.5425",
+					"y": "0.5012"
+				},
+                {
+					"id": "nordstromrack",
+					"title": "Nordstrom Rack",
+					"description": "Nordstrom Rack",
+                    "link": "https://www.nordstromrack.com/",
+					"category": "Shops",
+					"x": "0.6441",
+					"y": "0.3287"
 				}
 			]
 		}
