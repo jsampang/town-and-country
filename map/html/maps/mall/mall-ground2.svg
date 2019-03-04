@@ -80,7 +80,7 @@
 	.st74{fill:#DED9C3;stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;}
 	.st75{fill-rule:evenodd;clip-rule:evenodd;fill:#606161;}
 	.st76{fill-rule:evenodd;clip-rule:evenodd;fill:#B7B7B7;}
-	.st77{display:inline;fill:#BFBFBF;stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;}
+	.st77{fill:#BFBFBF;stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;}
 	.st78{fill:#F2F2F2;}
 	.st79{fill:#212121;}
 	.st80{font-family:'ArialMT';}
@@ -1165,7 +1165,7 @@
 					l-2.9-8.6h-72L836.1,85.2z M840,96.7h72.7l-2.9-8.6h-72L840,96.7z M844,108.3h72.7l-2.9-8.6h-72L844,108.3z M847.9,119.8h72.7
 					l-2.9-8.6h-72L847.9,119.8z"/>
 			</g>
-			<g id="line" class="st0">
+			<g id="line">
 				<path class="st77" d="M222.3,451.9h102.1v-19.1h-99.9L222.3,451.9z M404.5,318.6H237.8l-3.7,18.6h-11.8l-12.5,92.5h117.5v21.6
 					h71.3l2.9-60.3h14.7v-32.7h-13.2L404.5,318.6z M317.8,290.4h-67.6L248,308h68.3L317.8,290.4z M323,296.5h24.2l13.2-4.5v-25.6
 					l-107.3-20.6l-2.9,42.2H323L323,296.5L323,296.5z M364.9,263.8l42.6-26.1l-5.9-9.1l-27.2-5.5l-52.2,32.2L364.9,263.8z
