@@ -1,0 +1,181 @@
+{
+	"mapwidth": "1000",
+	"mapheight": "500",
+	"categories": [
+		{
+			"id": "Shops",
+			"title": "Shops",
+			"about": "Cothing Accessories $ Grocery",
+			"color": "#FF9595",
+            "icon": "https://jsampang.github.io/town-and-country/map/html/images/shop.svg"
+		},
+		{
+			"id": "Foods",
+			"title": "Food & Drinks",
+			"about": "Food & Wine",
+			"color": "#FFB985",
+            "icon": "https://jsampang.github.io/town-and-country/map/html/images/food.svg"
+		},
+		{
+			"id": "Services",
+			"title": "Services",
+			"about": "Hotels, Dental & Fitness",
+			"color": "#A5C882"
+		}
+	],
+	"levels": [
+		{
+			"id": "first-floor",
+			"title": "First Floor",
+			"map": "https://jsampang.github.io/town-and-country/map/html/maps/mall/mall-ground2.svg",
+			"minimap": "maps/mall/mall-first-mini.jpg",
+            "show": "true",
+			"locations": [
+				{
+					"id": "athleta",
+					"title": "Athleta",
+					"description": "Athleta",
+					"category": "Shops",
+					"x": "0.0000",
+					"y": "0.0000"
+				},
+                {
+					"id": "choicepetmarketing",
+					"title": "Choice Pet Marketing",
+					"description": "Choice Pet Marketing",
+					"category": "Shops",
+					"x": "0.0000",
+					"y": "0.0000"
+				},
+                {
+					"id": "bluemercury",
+					"title": "Bluemercury",
+					"description": "Bluemercury",
+					"category": "Shops",
+					"x": "0.0000",
+					"y": "0.0000"
+				},
+                {
+					"id": "thecontainerstore",
+					"title": "The Container Store",
+					"description": "The Container Store",
+					"category": "Shops",
+					"x": "0.0000",
+					"y": "0.0000"
+				},
+                {
+					"id": "forever21",
+					"title": "Forever21",
+					"description": "Forever21",
+					"category": "Shops",
+					"x": "0.0000",
+					"y": "0.0000"
+				},
+                {
+					"id": "looseleafteamarket",
+					"title": "Loose Leaf Tea Market",
+					"description": "Loose Leaf Tea Market",
+					"category": "Shops",
+					"x": "0.0000",
+					"y": "0.0000"
+				},
+                {
+					"id": "matressfirm",
+					"title": "Matress Firm",
+					"description": "Matress Firm",
+					"category": "Shops",
+					"x": "0.2761",
+					"y": "0.8873"
+				},
+                {
+					"id": "mysisterscloset",
+					"title": "My Sister's Closet",
+					"description": "My Sister's Closet",
+					"category": "Shops",
+					"x": "0.0000",
+					"y": "0.0000"
+				},
+                {
+					"id": "nordstromrack",
+					"title": "Nordstrom Rack",
+					"description": "Nordstrom Rack",
+                    "link": "https://www.nordstromrack.com/",
+					"category": "Shops",
+					"x": "0.6441",
+					"y": "0.3287"
+				},
+                {
+					"id": "orvis",
+					"title": "Orvis",
+					"description": "Orvis",
+					"category": "Shops",
+					"x": "0.1728",
+					"y": "0.0716"
+				},
+                {
+					"id": "papersource",
+					"title": "Paper Source",
+					"description": "Paper Source",
+					"category": "Shops",
+					"x": "0.0000",
+					"y": "0.0000"
+				},
+                {
+					"id": "sprintspectrum",
+					"title": "Sprint Spectrum",
+					"description": "Sprint Spectrum",
+					"category": "Shops",
+					"x": "0.0000",
+					"y": "0.0000"
+				},
+                {
+					"id": "traderjoes",
+					"title": "Trader Joe's",
+					"description": "Trader Joe's",
+					"category": "Shops",
+					"x": "0.0000",
+					"y": "0.0000"
+				},
+                {
+					"id": "wellsuited",
+					"title": "Well Suited",
+					"description": "Well Suited",
+					"category": "Shops",
+					"x": "0.0000",
+					"y": "0.0000"
+				},
+                {
+					"id": "wholefoods",
+					"title": "WholeFoods",
+					"description": "WholeFoods",
+					"category": "Shops",
+					"x": "0.3095",
+					"y": "0.7638",
+					"zoom": "2"
+				},
+                        
+                {
+					"id": "dunkindonut",
+					"title": "Dunkin Donuts",
+					"description": "Dunkin' Donuts",
+                    "icon": "https://jsampang.github.io/town-and-country/map/html/images/food.svg",
+					"category": "Foods",
+					"x": "0.8565",
+					"y": "0.0696"
+				},
+				
+                
+                
+                {
+					"id": "lafitness",
+					"title": "LA Fitness",
+					"description": "LA Fitness",
+					"category": "Services",
+					"x": "0.5425",
+					"y": "0.5012"
+				}
+                
+			]
+		}
+	]
+}

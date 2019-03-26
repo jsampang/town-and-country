@@ -1,0 +1,163 @@
+<% extends '/template/base/common-template' %>
+<% block content %>
+<$ super() $>
+<style>
+    .badge-shops {
+        background-color: #C78029;
+        color: #fff;
+        
+    }
+    .badge-success {
+    color: #fff;
+    background-color: #C78029;
+}
+.badge-nordstrom {
+    background-color: #5C1C1F;
+    color: #fff;
+}
+.building-b {
+    background-color: #635836;
+    color: #fff;
+}
+    
+</style>
+
+<section class="section">
+       <div class="container">
+        <div class="row">
+            <aside class="col-md-3 blog-sidebar col-sm-5">
+                <div class="p-3 mb-3 bg-light rounded text-center">
+                    <div class="sidebar-search">
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Search">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text"><i class="fa fa-search"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="py-3">
+                    <!-- <div class="sidebar-block mb-2">
+                        <h4 class="sidebar-title">Shops</h4>
+                        <ol class="list-unstyled mb-0">
+                            <li><span class="badge badge-shops">D10</span> <a href="#">Athleta</a></li>
+                            <li><span class="badge badge-shops">A30</span> <a href="#">Choice Pet Market</a></li>
+                            <li><span class="badge badge-shops">D12</span> <a href="#">Bluemercury</a></li>
+                            
+                            <li><span class="badge badge-shops">D10</span> <a href="#">The Container Store</a></li>
+                            <li><span class="badge badge-shops">A30</span> <a href="#">Forever21</a></li>
+                            <li><span class="badge badge-shops">D12</span> <a href="#">Loose Leaf Tea Market</a></li>
+                            
+                            <li><span class="badge badge-shops">D10</span> <a href="#">Matress Firm</a></li>
+                            <li><span class="badge badge-shops">A30</span> <a href="#">My Sister's Closet</a></li>
+                            <li><span class="badge badge-nordstrom">D12</span> <a href="#">Nordstrom Rack</a></li>
+                            
+                            <li><span class="badge badge-shops">D10</span> <a href="#">Orvis</a></li>
+                            <li><span class="badge badge-shops">A30</span> <a href="#">Paper Source</a></li>
+                            <li><span class="badge badge-shops">D12</span> <a href="#">Spirit Spectrum</a></li>
+                        </ol>
+                    </div>
+                    
+                    <div class="sidebar-block mb-2">
+                        <h4 class="sidebar-title">Food and Drinks</h4>
+                        <ol class="list-unstyled mb-0">
+                            <li><span class="badge badge-danger">D10</span> <a href="#">Cafe Rio Mexiacn Grill</a></li>
+                            <li><span class="badge badge-danger">A30</span> <a href="#">Dunkin Donuts</a></li>
+                            <li><span class="badge badge-danger">D12</span> <a href="#">Grassroots Kitchen</a></li>
+                        </ol>
+                    </div>-->
+                    
+                    
+                    <div class="mb-2">
+<!--                         <h4 class="sidebar-title">Food and Drinks</h4> -->
+                        <div id="accordion">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <span class="btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Shops
+        </span>
+      </h5>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+       <ol class="list-unstyled mb-0">
+                            <li><span class="badge badge-shops">D10</span> <a href="#">Athleta</a></li>
+                            <li><span class="badge badge-shops">A30</span> <a href="#">Choice Pet Market</a></li>
+                            <li><span class="badge badge-shops">D12</span> <a href="#">Bluemercury</a></li>
+                            
+                            <li><span class="badge badge-shops">C14</span> <a href="#">The Container Store</a></li>
+                            <li><span class="badge badge-shops">C12</span> <a href="#">Forever21</a></li>
+                            <li><span class="badge building-b">B23</span> <a href="#">Loose Leaf Tea Market</a></li>
+                            
+                            <li><span class="badge badge-shops">A25</span> <a href="#">Matress Firm</a></li>
+                            <li><span class="badge building-b">B29</span> <a href="#">My Sister's Closet</a></li>
+                            <li><span class="badge badge-nordstrom">B00</span> <a href="#">Nordstrom Rack</a></li>
+                            
+                            <li><span class="badge badge-shops">C10</span> <a href="#">Orvis</a></li>
+                            <li><span class="badge badge-shops">A14</span> <a href="#">Paper Source</a></li>
+                            <li><span class="badge badge-shops">A32</span> <a href="#">Spirit Spectrum</a></li>
+                            
+                            <li><span class="badge badge-shops">A31</span> <a href="#">Trader Joe's</a></li>
+                            <li><span class="badge building-b">B26</span> <a href="#">Well Suited</a></li>
+                            <li><span class="badge badge-shops">A27</span> <a href="#">Whole Foods</a></li>
+                        </ol>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <span class="btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Food & Drink
+        </span>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+       <ol class="list-unstyled mb-0">
+                            <li><span class="badge badge-nordstrom">103</span> <a href="#">Cafe Rio Mexiacn Grill</a></li>
+                            <li><span class="badge badge-nordstrom">100</span> <a href="#">Dunkin Donuts</a></li>
+                            <li><span class="badge badge-shops">A21</span> <a href="#">Grassroots Kitchen</a></li>
+                            
+                            <li><span class="badge badge-shops">113</span> <a href="#">Hopdaddy Burger Bar</a></li>
+                            <li><span class="badge badge-shops">116</span> <a href="#">Nekter Juice Bar</a></li>
+                            <li><span class="badge badge-shops">A23</span> <a href="#">Pizzeria Bianco</a></li>
+                        </ol>
+      </div>
+    </div>
+  </div>
+  
+</div>
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+
+                    
+                </div>
+            </aside>
+            
+            <div class="col-lg-9 col-md-8 blog-main grid-post col-sm-7">
+                <div class="blog-post single-blog-post">
+                    <div class="blog-post-thumbnail-zone">
+                        <img src="<% url('/asset/img/map.png') %>" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+</section>
+
+
+<% endblock %>

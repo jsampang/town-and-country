@@ -3,23 +3,40 @@
 	"mapheight": "500",
 	"categories": [
 		{
-			"id": "Shops",
-			"title": "Shops",
-			"about": "Cothing Accessories $ Grocery",
+			"id": "Apparel & Accessories",
+			"title": "Apparel & Accessories",
 			"color": "#FF9595",
             "icon": "https://jsampang.github.io/town-and-country/map/html/images/shop.svg"
 		},
 		{
-			"id": "Foods",
-			"title": "Food & Drinks",
-			"about": "Food & Wine",
+			"id": "Grocery",
+			"title": "Grocery",
 			"color": "#FFB985",
             "icon": "https://jsampang.github.io/town-and-country/map/html/images/food.svg"
 		},
 		{
+			"id": "Health & Beauty",
+			"title": "Health & Beauty",
+			"color": "#A5C882"
+		},
+        {
+			"id": "Hotel",
+			"title": "Hotel",
+			"color": "#A5C882"
+		},
+        {
+			"id": "Restaurant",
+			"title": "Restaurant & Specialty Foods",
+			"color": "#A5C882"
+		},
+        {
 			"id": "Services",
 			"title": "Services",
-			"about": "Hotels, Dental & Fitness",
+			"color": "#A5C882"
+		},
+        {
+			"id": "Specialty",
+			"title": "Specialty",
 			"color": "#A5C882"
 		}
 	],
@@ -32,57 +49,263 @@
             "show": "true",
 			"locations": [
 				{
-					"id": "dunkindonut",
-					"title": "Dunkin Donuts",
-					"about": "Dunkin Donuts",
-					"description": "Dunkin' Donuts",
-					"category": "Foods",
-					"x": "0.8565",
-					"y": "0.0696"
-				},
-				{
-					"id": "orvis",
-					"title": "Orvis",
-					"about": "Orvis",
-					"description": "Orvis",
-					"category": "Shops",
-					"x": "0.1728",
-					"y": "0.0716"
+					"id": "athleta",
+					"title": "Athleta",
+					"description": "Athleta",
+                    "link": "https://athleta.gap.com/",
+					"category": "Apparel & Accessories",
+					"x": "0.0000",
+					"y": "0.0000"
 				},
                 {
-					"id": "wholefoods",
-					"title": "WholeFoods",
-					"description": "WholeFoods",
-					"category": "Shops",
-					"x": "0.3095",
-					"y": "0.7638",
-					"zoom": "2"
+					"id": "choicepetmarketing",
+					"title": "Choice Pet Marketing",
+					"description": "Choice Pet Marketing",
+                    "link": "http://www.choicepetmarket.com/",
+					"category": "Services",
+					"x": "0.0000",
+					"y": "0.0000"
+				},
+                {
+					"id": "bluemercury",
+					"title": "Bluemercury",
+					"description": "Bluemercury",
+                    "link": "https://bluemercury.com/",
+					"category": "Specialty",
+					"x": "0.0000",
+					"y": "0.0000"
+				},
+                {
+					"id": "thecontainerstore",
+					"title": "The Container Store",
+					"description": "The Container Store",
+                    "link": "https://www.containerstore.com/welcome.htm",
+					"category": "Services",
+					"x": "0.0000",
+					"y": "0.0000"
+				},
+                {
+					"id": "forever21",
+					"title": "Forever21",
+					"description": "Forever21",
+                    "link": "https://www.forever21.com/us/shop",
+					"category": "Apparel & Accessories",
+					"x": "0.0000",
+					"y": "0.0000"
+				},
+                {
+					"id": "looseleafteamarket",
+					"title": "Loose Leaf Tea Market",
+					"description": "Loose Leaf Tea Market",
+                    "link": "https://looseleafteamarket.com/",
+					"category": "Health & Beauty",
+					"x": "0.0000",
+					"y": "0.0000"
 				},
                 {
 					"id": "matressfirm",
 					"title": "Matress Firm",
 					"description": "Matress Firm",
-					"category": "Shops",
+                    "link": "https://www.mattressfirm.com/",
+					"category": "Specialty",
 					"x": "0.2761",
 					"y": "0.8873"
 				},
                 {
-					"id": "lafitness",
-					"title": "LA Fitness",
-					"description": "LA Fitness",
-					"category": "Services",
-					"x": "0.5425",
-					"y": "0.5012"
+					"id": "mysisterscloset",
+					"title": "My Sister's Closet",
+					"description": "My Sister's Closet",
+                    "link": "http://www.mysisterscloset.com/",
+					"category": "Apparel & Accessories",
+					"x": "0.0000",
+					"y": "0.0000"
 				},
                 {
 					"id": "nordstromrack",
 					"title": "Nordstrom Rack",
 					"description": "Nordstrom Rack",
                     "link": "https://www.nordstromrack.com/",
-					"category": "Shops",
+					"category": "Apparel & Accessories",
 					"x": "0.6441",
 					"y": "0.3287"
+				},
+                {
+					"id": "orvis",
+					"title": "Orvis",
+					"description": "Orvis",
+                    "link": "https://www.orvis.com/",
+					"category": "Apparel & Accessories",
+					"x": "0.1728",
+					"y": "0.0716"
+				},
+                {
+					"id": "papersource",
+					"title": "Paper Source",
+					"description": "Paper Source",
+                    "link": "https://www.papersource.com/",
+					"category": "Specialty",
+					"x": "0.0000",
+					"y": "0.0000"
+				},
+                {
+					"id": "sprintspectrum",
+					"title": "Sprint Spectrum",
+					"description": "Sprint Spectrum",
+                    "link": "https://business.sprint.com/5g/spectrum/",
+					"category": "Services",
+					"x": "0.0000",
+					"y": "0.0000"
+				},
+                {
+					"id": "traderjoes",
+					"title": "Trader Joe's",
+					"description": "Trader Joe's",
+                    "link": "https://www.traderjoes.com/",
+					"category": "Grocery",
+					"x": "0.0000",
+					"y": "0.0000"
+				},
+                {
+					"id": "wellsuited",
+					"title": "Well Suited",
+					"description": "Well Suited",
+                    "link": "http://www.shopwellsuited.com/",
+					"category": "Apparel & Accessories",
+					"x": "0.0000",
+					"y": "0.0000"
+				},
+                {
+					"id": "wholefoods",
+					"title": "WholeFoods",
+					"description": "WholeFoods",
+                    "link": "https://www.wholefoodsmarket.com/",
+					"category": "Grocery",
+					"x": "0.3095",
+					"y": "0.7638",
+					"zoom": "2"
+				},  
+                
+                {
+					"id": "caferiomexicangrill",
+					"title": "Cafe Rio Mexican Grill",
+					"description": "Cafe Rio Mexican Grill",
+                    "link": "https://www.caferio.com/",
+					"category": "Restaurant",
+					"x": "0.5425",
+					"y": "0.5012"
+				},       
+                {
+					"id": "dunkindonut",
+					"title": "Dunkin Donuts",
+					"description": "Dunkin' Donuts",
+                    "link": "https://www.dunkindonuts.com/e",
+					"category": "Restaurant",
+					"x": "0.8565",
+					"y": "0.0696"
+				},
+                {
+					"id": "grassrootskitchenandtap",
+					"title": "Grassroots Kitchen and Tap",
+					"description": "Grassroots Kitchen and Tap",
+                    "link": "https://www.grassrootsaz.com/",
+					"category": "Restaurant",
+					"x": "0.8565",
+					"y": "0.0696"
+				}, 
+                {
+					"id": "hopdaddyburgerbar",
+					"title": "Hopdaddy Burger Bar",
+					"description": "Hopdaddy Burger Bar",
+                    "link": "https://www.hopdoddy.com/",
+					"category": "Restaurant",
+					"x": "0.8565",
+					"y": "0.0696"
+				},
+                {
+					"id": "nekterjuicebar",
+					"title": "Nekter Juice Bar",
+					"description": "Nekter Juice Bar",
+                    "link": "https://www.nekterjuicebar.com/",
+					"category": "Restaurant",
+					"x": "0.8565",
+					"y": "0.0696"
+				},
+                {
+					"id": "pizzeriabianco",
+					"title": "Pizzeria Bianco",
+					"description": "Pizzeria Bianco",
+                    "link": "http://www.pizzeriabianco.com/",
+					"category": "Restaurant",
+					"x": "0.8565",
+					"y": "0.0696"
+				},
+                {
+					"id": "potbellysandwichworks",
+					"title": "Potbelly Sandwich Works",
+					"description": "Potbelly Sandwich Works",
+                    "link": "https://www.potbelly.com/",
+					"category": "Restaurant",
+					"x": "0.8565",
+					"y": "0.0696"
+				},
+                {
+					"id": "snoozeeatery",
+					"title": "Snooze Eatery",
+					"description": "Snooze Eatery",
+                    "link": "https://snoozeeatery.com/",
+					"category": "Restaurant",
+					"x": "0.8565",
+					"y": "0.0696"
+				},
+                {
+					"id": "tokyojoes",
+					"title": "Tokyo Joes",
+					"description": "Tokyo Joes",
+                    "link": "http://tokyojoes.com/",
+					"category": "Restaurant",
+					"x": "0.8565",
+					"y": "0.0696"
+				},
+                {
+					"id": "tratto",
+					"title": "Tratto",
+					"description": "Tratto",
+                    "link": "http://www.trattophx.com/",
+					"category": "Restaurant",
+					"x": "0.8565",
+					"y": "0.0696"
+				},
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                {
+					"id": "lafitness",
+					"title": "LA Fitness",
+					"description": "LA Fitness",
+                    "link": "https://www.lafitness.com/Pages/Default.aspx",
+					"category": "Health & Beauty",
+					"x": "0.5425",
+					"y": "0.5012"
 				}
+                
+                
 			]
 		}
 	]

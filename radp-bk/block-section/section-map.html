@@ -1,0 +1,42 @@
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="<% url('/asset/css/map/style.css') %>">
+		<link rel="stylesheet" type="text/css" href="<% url('/asset/css/map/mapplic.css') %>">
+			
+
+
+
+					<div class="map-container">
+						<div id="mapplic"></div>
+						Blah
+					</div>
+
+					
+
+					
+
+
+
+		<!-- Scripts -->
+		<script type="text/javascript" src="<% url('/asset/js/map/jquery.min.js') %>"></script>
+		<script type="text/javascript" src="<% url('/asset/js/map/hammer.min.js') %>"></script>
+		<script type="text/javascript" src="<% url('/asset/js/map/jquery.mousewheel.js') %>"></script>
+		<script type="text/javascript" src="<% url('/asset/js/map/script.js') %>"></script> 
+		<script type="text/javascript" src="<% url('/asset/js/map/csvparser.js') %>"></script>
+		<script type="text/javascript" src="<% url('/asset/js/map/mapplic.js') %>"></script> 
+		<script type="text/javascript">
+			$(document).ready(function() {
+				var mapplic = $('#mapplic').mapplic({
+					source: '<% url('/asset/js/mall.json') %>', 
+					sidebar: true, 			// Enable sidebar
+					height: 500,
+					minimap: false,
+					marker: 'hidden', 		// Disable markers
+					fillcolor: false, 		// Disable default fill color
+					fullscreen: true, 		// Enable fullscreen 
+					developer: false,
+					thumbholder: true,
+					maxscale: 3,
+					developer: true
+				});
+			});
+		</script>
