@@ -83,10 +83,11 @@
 	.st76{display:inline;fill-rule:evenodd;clip-rule:evenodd;fill:#B7B7B7;}
 	.st77{fill:#BFBFBF;stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;}
 	.st78{fill-rule:evenodd;clip-rule:evenodd;fill:#BFBFBF;stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;}
-	.st79{fill:#F2F2F2;}
-	.st80{fill:#212121;}
-	.st81{font-family:'ArialMT';}
-	.st82{font-size:12px;}
+	.st79{fill:#C11616;stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;}
+	.st80{fill:#F2F2F2;}
+	.st81{fill:#212121;}
+	.st82{font-family:'ArialMT';}
+	.st83{font-size:12px;}
 </style>
 <g id="old" class="st0">
 	<g id="mall-ground" class="st1">
@@ -1206,7 +1207,7 @@
 				469.9,329.1 496.3,329.6 514.7,318 521.3,320 560.3,294.4 569.8,296.4 634.5,251.6 			"/>
 			<path id="nordstromrack" class="st78" d="M524.3,168.2l88.9,17.6l-16.9,12.6l71.3,14.1l50.6-35.8l19.9,4.1l6.6-4.5l-27.9-5.5
 				c0,0,47.5-31.4,45.5-31.7S682.2,124,682.2,124l-94.8-1.5l-66.1,39.7L524.3,168.2z"/>
-			<polygon id="firstbank" class="st77" points="100.6,184.3 180.7,184.3 183.6,168.7 104.3,168.7 			"/>
+			<polygon id="firstbank" class="st79" points="100.6,184.3 180.7,184.3 183.6,168.7 104.3,168.7 			"/>
 			<polygon id="athleta" class="st77" points="431,132 348.7,115.4 348,128 414.1,141.6 			"/>
 		</g>
 		<g id="nopointer-logos_1_">
@@ -1381,12 +1382,12 @@
 			</g>
 		</g>
 		<g id="roads">
-			<path id="road" class="st79" d="M1007.3,23.3H136.5c0,0-5.9-0.7-6.4,1.3s-2,5.7-2,5.7L29.5,464c0,0-0.9,3.5,0.3,5.3
+			<path id="road" class="st80" d="M1007.3,23.3H136.5c0,0-5.9-0.7-6.4,1.3s-2,5.7-2,5.7L29.5,464c0,0-0.9,3.5,0.3,5.3
 				c0.9,1.2,7.6,1.5,7.6,1.5h983v25.8H-6.9c0,0-14.5-26.1,6.9-26.1c3.3,0,5-2.1,5-2.1l95.6-438c0,0,5.4-7.5,0-9.3s-121.9,0-121.9,0
 				v-37.5h1025.6L1007.3,23.3z"/>
-			<text transform="matrix(1 0 0 1 475.959 14.4717)" class="st80 st81 st82">E Camelback Rd</text>
-			<text transform="matrix(1 0 0 1 475.959 488.6663)" class="st80 st81 st82">E Highland Ave</text>
-			<text transform="matrix(0.2057 -0.9786 0.9786 0.2057 72.2058 240.968)" class="st80 st81 st82">N 20th Street</text>
+			<text transform="matrix(1 0 0 1 475.959 14.4717)" class="st81 st82 st83">E Camelback Rd</text>
+			<text transform="matrix(1 0 0 1 475.959 488.6663)" class="st81 st82 st83">E Highland Ave</text>
+			<text transform="matrix(0.2057 -0.9786 0.9786 0.2057 72.2058 240.968)" class="st81 st82 st83">N 20th Street</text>
 		</g>
 	</g>
 </g>
