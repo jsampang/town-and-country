@@ -80,14 +80,13 @@
 	.st73{stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;}
 	.st74{fill:#DED9C3;stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;}
 	.st75{fill-rule:evenodd;clip-rule:evenodd;fill:#606161;}
-	.st76{fill-rule:evenodd;clip-rule:evenodd;fill:#B7B7B7;}
+	.st76{display:inline;fill-rule:evenodd;clip-rule:evenodd;fill:#B7B7B7;}
 	.st77{fill:#BFBFBF;stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;}
 	.st78{fill-rule:evenodd;clip-rule:evenodd;fill:#BFBFBF;stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;}
 	.st79{fill:#F2F2F2;}
 	.st80{fill:#212121;}
 	.st81{font-family:'ArialMT';}
 	.st82{font-size:12px;}
-	.st83{display:none;fill-rule:evenodd;clip-rule:evenodd;fill:#B7B7B7;}
 </style>
 <g id="old" class="st0">
 	<g id="mall-ground" class="st1">
@@ -1150,7 +1149,7 @@
 			<polygon class="st75" points="818.1,30.4 818.1,38.9 844.6,127.8 920.6,128.3 920.6,119.8 890.1,30.4 			"/>
 		</g>
 		<g id="landmarks-large-ground_2_">
-			<g>
+			<g class="st0">
 				<path class="st76" d="M317.8,290.4h-67.6L248,308h68.3L317.8,290.4z M323,296.5h24.2l13.2-4.5v-25.6l-107.3-20.6l-2.9,42.2H323
 					V296.5L323,296.5z M364.9,263.8l42.6-26.1l-5.9-9.1l-27.2-5.5l-52.2,32.2L364.9,263.8z M342.1,240.1L287,228.6l-27.2,15.6
 					l58,10.6L342.1,240.1z M370.7,222.5l-44.8-9.6l-16.2,9.6l-10.3-2l-11,6.5l55.8,11.1L370.7,222.5z M431,274.3l23.5-14.1l-14.7-4
@@ -1391,5 +1390,4 @@
 		</g>
 	</g>
 </g>
-<polygon class="st83" points="100.6,184.3 180.7,184.3 183.6,168.7 104.3,168.7 "/>
 </svg>

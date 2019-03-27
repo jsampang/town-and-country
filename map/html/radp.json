@@ -276,25 +276,60 @@
 					"y": "0.0696"
 				},
                 
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
+                {
+					"id": "thebiltmorestudio",
+					"title": "The Biltmore Studio",
+					"description": "The Biltmore Studio",
+                    "link": "http://www.thebiltmorestudio.com/",
+					"category": "Services",
+					"x": "0.8565",
+					"y": "0.0696"
+				},
+                {
+					"id": "brightnowdental",
+					"title": "Bright Now Dental",
+					"description": "Bright Now Dental",
+                    "link": "https://www.brightnow.com/",
+					"category": "Services",
+					"x": "0.8565",
+					"y": "0.0696"
+				},
+                {
+					"id": "courtyard",
+					"title": "Courtyard by Marriott",
+					"description": "Courtyard by Marriott",
+                    "link": "https://courtyard.marriott.com/",
+					"category": "Hotel",
+					"x": "0.7799",
+					"y": "0.5398"
+				},
+                {
+					"id": "aveda",
+					"title": "Distinctive Salon & Spa Aveda",
+					"description": "Distinctive Salon & Spa Aveda",
+                    "link": "http://www.distinctivesalonandspa.com/",
+					"category": "Health & Beauty",
+					"x": "0.7799",
+					"y": "0.5398"
+				},
+                {
+					"id": "fedEx",
+					"title": "FedEx Office",
+					"description": "FedEx Office",
+                    "link": "https://www.fedex.com/en-us/office.html",
+					"category": "Services",
+					"x": "0.8769",
+					"y": "0.1846"
+				},
+                {
+					"id": "firstbank",
+					"title": "First Bank",
+					"description": "First Bank",
+                    "link": "https://www.efirstbank.com/",
+					"category": "Services",
+					"x": "0.1416",
+					"y": "0.3596"
+				},
                 {
 					"id": "lafitness",
 					"title": "LA Fitness",
@@ -303,9 +338,52 @@
 					"category": "Health & Beauty",
 					"x": "0.5425",
 					"y": "0.5012"
-				}
-                
-                
+				},
+                {
+					"id": "luxenailbar",
+					"title": "Luxe Nail Bar",
+					"description": "Luxe Nail Bar",
+                    "link": "https://luxenailbarphoenixaz.com/",
+					"category": "Services",
+					"x": "0.1416",
+					"y": "0.3596"
+				},
+                {
+					"id": "primpandblow",
+					"title": "Primp and Blow",
+					"description": "Primp and Blow",
+                    "link": "https://primpandblow.com/",
+					"category": "Services",
+					"x": "0.1416",
+					"y": "0.3596"
+				},
+                {
+					"id": "scpchiropractic",
+					"title": "SCP Chiropractic",
+					"description": "SCP Chiropractic",
+                    "link": "http://www.scpchiropractic.com/",
+					"category": "Services",
+					"x": "0.1416",
+					"y": "0.3596"
+				},
+                {
+					"id": "supercuts",
+					"title": "Supercuts",
+					"description": "Supercuts",
+                    "link": "https://www.supercuts.com/",
+					"category": "Services",
+					"x": "0.1416",
+					"y": "0.3596"
+				},
+                {
+					"id": "townandCountry",
+					"title": "Town & Country Camelback LLC",
+					"description": "Town & Country Camelback LLC",
+                    "link": "http://www.townandcountryshops.com/about/location/",
+					"category": "Services",
+					"x": "0.1416",
+					"y": "0.3596"
+				}                     
 			]
 		}
 	]
