@@ -345,8 +345,8 @@
 					"description": "Luxe Nail Bar",
                     "link": "https://luxenailbarphoenixaz.com/",
 					"category": "Services",
-					"x": "0.1416",
-					"y": "0.3596"
+					"x": "0.0000",
+					"y": "0.0000"
 				},
                 {
 					"id": "primpandblow",
@@ -354,8 +354,8 @@
 					"description": "Primp and Blow",
                     "link": "https://primpandblow.com/",
 					"category": "Services",
-					"x": "0.1416",
-					"y": "0.3596"
+					"x": "0.0000",
+					"y": "0.0000"
 				},
                 {
 					"id": "scpchiropractic",
@@ -363,8 +363,8 @@
 					"description": "SCP Chiropractic",
                     "link": "http://www.scpchiropractic.com/",
 					"category": "Services",
-					"x": "0.1416",
-					"y": "0.3596"
+					"x": "0.0000",
+					"y": "0.0000"
 				},
                 {
 					"id": "supercuts",
@@ -372,8 +372,8 @@
 					"description": "Supercuts",
                     "link": "https://www.supercuts.com/",
 					"category": "Services",
-					"x": "0.1416",
-					"y": "0.3596"
+					"x": "0.0000",
+					"y": "0.0000"
 				},
                 {
 					"id": "townandCountry",
@@ -381,8 +381,8 @@
 					"description": "Town & Country Camelback LLC",
                     "link": "http://www.townandcountryshops.com/about/location/",
 					"category": "Services",
-					"x": "0.1416",
-					"y": "0.3596"
+					"x": "0.0000",
+					"y": "0.0000"
 				}                     
 			]
 		}
